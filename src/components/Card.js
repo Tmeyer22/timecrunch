@@ -1,14 +1,20 @@
-import Draggable from 'react-draggable';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-const Card = (props) => {
+import './card.css'
+
+const Card = props => {
     return (
-      <Draggable axis='y' bounds='parent'>
         <div className="card">
-          <div className="header">{props.title}</div>
-          <div className="content">Content</div>
+            <div className="card__title">
+                <p>{props.item.title}</p>
+            </div>
         </div>
-      </Draggable>
     )
-  }
-  
-export default Card;
+}
+
+Card.propTypes = {
+    item: PropTypes.object
+}
+
+export default Card
