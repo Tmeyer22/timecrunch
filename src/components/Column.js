@@ -13,9 +13,8 @@ const VerticleColumn = (props) => {
   const addCard = () => {
     const listIn = [...totalData];
     const listOut = [...dispData];
-    const card = listIn.pop();
+    const card = listIn[(Math.floor(Math.random() * listIn.length))];
     listOut.push(card);
-    console.log({listIn, listOut});
     setTotalData(listIn);
     setDispData(listOut);
   }
@@ -24,20 +23,21 @@ const VerticleColumn = (props) => {
 
   const onDrop = (dropIndex) => {
     const dragItem = dispData[dragStartIndex]
-    let list = [...dispData]
-    list.splice(dragStartIndex, 1)
+    const listIn = [...totalData]
+    let listOut = [...dispData]
+    const card = listIn[(Math.floor(Math.random() * listIn.length))];
+
+    listOut.splice(dragStartIndex, 1)
+
     if (dragStartIndex < dropIndex) {
-      setDispData([
-          ...list.slice(0, dropIndex - 1),
-          dragItem,
-          ...list.slice(dropIndex - 1, list.length)
-      ])
+      listOut = [...listOut.slice(0, dropIndex - 1), dragItem, ...listOut.slice(dropIndex - 1, listOut.length)]
+      listOut.push(card);
+      setDispData(listOut)
+
   } else {
-    setDispData([
-          ...list.slice(0, dropIndex),
-          dragItem,
-          ...list.slice(dropIndex, list.length)
-      ])
+    listOut = [...listOut.slice(0, dropIndex), dragItem, ...listOut.slice(dropIndex, listOut.length)]
+    listOut.push(card);
+    setDispData(listOut)
   }
   }
 
