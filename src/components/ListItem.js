@@ -1,7 +1,11 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import PropTypes from 'prop-types'
 
 const Card = props => {
+
+    const [palced, setPlaced] = useState(true)
+    
+    const [button, showButton] = useState(false)
 
     const itemRef = useRef(null)
 
@@ -68,6 +72,7 @@ const Card = props => {
 
     // event when drop
     const onDrop = () => {
+        showButton(true)
         itemRef.current.classList.remove('dragover')
         props.onDrop(props.index)
     }
@@ -76,7 +81,7 @@ const Card = props => {
         <li
             ref={itemRef}
             className="draggable-list__item"
-            draggable={props.draggable !== undefined ? props.draggable : true}
+            draggable={palced}
             onDragStart={onDragStart}
             onDrag={onDrag}
             onDragEnd={onDragEnd}
@@ -86,6 +91,7 @@ const Card = props => {
             onDrop={onDrop}
         >
             {props.children}
+            {button && <button> Place?</button>}
         </li>
     )
 }

@@ -25,7 +25,9 @@ const VerticleColumn = (props) => {
     const dragItem = dispData[dragStartIndex]
     const listIn = [...totalData]
     let listOut = [...dispData]
-    const card = listIn[(Math.floor(Math.random() * listIn.length))];
+    let index = (Math.floor(Math.random() * listIn.length))
+    let card = listIn.splice(index, 1)[0]
+    setTotalData(listIn)
 
     listOut.splice(dragStartIndex, 1)
 
@@ -48,6 +50,7 @@ const VerticleColumn = (props) => {
           <Card
             key={index}
             index={index}
+            draggable={false}
             onDragStart={(index) => onDragStart(index)}
             onDrop={(index) => onDrop(index)}
           >
@@ -56,17 +59,7 @@ const VerticleColumn = (props) => {
             }
           </Card>
         ))
-      }
-      <Card
-          key={dispData.length}
-          index={dispData.length}
-          draggale={false}
-          onDrop={(index) => onDrop(index)}
-      />
-    <div className="add-card-form">
-      <button onClick={addCard}>Next Card</button>
-    </div>
-          
+      } 
     </ul>
   );
 }
