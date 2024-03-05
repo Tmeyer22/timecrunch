@@ -1,13 +1,15 @@
 import React, { useRef, useState } from 'react'
 import PropTypes from 'prop-types'
+import './card.css'
 
 const Card = props => {
 
-    const [palced, setPlaced] = useState(true)
-    
-    const [button, showButton] = useState(false)
-
+    const [placed, setPlaced] = useState(true)
     const itemRef = useRef(null)
+
+    function handleClick() {
+        console.log('hit')
+    }
 
     const onDragStart = (e) => {
         
@@ -72,7 +74,8 @@ const Card = props => {
 
     // event when drop
     const onDrop = () => {
-        showButton(true)
+        // console.log("dropped")
+        setPlaced(false)
         itemRef.current.classList.remove('dragover')
         props.onDrop(props.index)
     }
@@ -81,7 +84,7 @@ const Card = props => {
         <li
             ref={itemRef}
             className="draggable-list__item"
-            draggable={palced}
+            draggable={placed}
             onDragStart={onDragStart}
             onDrag={onDrag}
             onDragEnd={onDragEnd}
@@ -90,8 +93,12 @@ const Card = props => {
             onDragOver={onDragOver}
             onDrop={onDrop}
         >
-            {props.children}
-            {button && <button> Place?</button>}
+            <div className="card">
+                <div className="card__title">
+                    <p>{props.title}</p>
+                </div>
+            </div>
+            {placed ? <></> : <button onClick={handleClick}>test</button>}
         </li>
     )
 }

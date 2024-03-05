@@ -6,7 +6,7 @@ import './column.css'
 
 const VerticleColumn = (props) => {
   const [dispData, setDispData] = useState([props.data[0], props.data[1]]);
-  const [totalData, setTotalData] = useState(props.data);
+  const [totalData, setTotalData] = useState(props.data.slice(2));
   const [dragStartIndex, setDragStartIndex] = useState(null);
   // const [newCard, setNewCard] = useState('');
 
@@ -32,14 +32,15 @@ const VerticleColumn = (props) => {
     listOut.splice(dragStartIndex, 1)
 
     if (dragStartIndex < dropIndex) {
-      listOut = [...listOut.slice(0, dropIndex - 1), dragItem, ...listOut.slice(dropIndex - 1, listOut.length)]
       listOut.push(card);
+      listOut = [...listOut.slice(0, dropIndex - 1), dragItem, ...listOut.slice(dropIndex - 1, listOut.length)]
       setDispData(listOut)
-
+      console.log(listIn, listOut)
   } else {
-    listOut = [...listOut.slice(0, dropIndex), dragItem, ...listOut.slice(dropIndex, listOut.length)]
     listOut.push(card);
+    listOut = [...listOut.slice(0, dropIndex), dragItem, ...listOut.slice(dropIndex, listOut.length)]
     setDispData(listOut)
+    console.log(listIn, listOut)
   }
   }
 
@@ -50,14 +51,11 @@ const VerticleColumn = (props) => {
           <Card
             key={index}
             index={index}
+            title={item.title}
             draggable={false}
             onDragStart={(index) => onDragStart(index)}
             onDrop={(index) => onDrop(index)}
-          >
-            {
-              props.renderItemContent(item)
-            }
-          </Card>
+          />
         ))
       } 
     </ul>

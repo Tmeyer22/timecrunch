@@ -1,29 +1,47 @@
 export const listData = [
     {
-        title: 'card 0 card 0'
+        index: 0,
+        text: 'text 0\ntext 0',
+        year: 1900
     },
     {
-        title: 'card 1 card 1'
+        index: 1,
+        text: 'text 1\ntext 1',
+        year: 1905
     },
     {
-        title: 'card 2 card 2'
+        index: 2,
+        text: 'text 2\ntext 2',
+        year: 1910
     },
     {
-        title: 'card 3 card 3'
+        index: 3,
+        text: 'text 3\ntext 3',
+        year: 1915
     },
     {
-        title: 'card 4 card 4'
+        index: 4,
+        text: 'text 4\ntext 4',
+        year: 1920
     },
     {
-        title: 'card 5 card 5'
+        index: 5,
+        text: 'text 5\ntext 5',
+        year: 1925
     },
     {
-        title: 'card 6 card 6'
+        index: 6,
+        text: 'text 6\ntext 6',
+        year: 1930
     },
     {
-        title: 'card 7 card 7'
+        index: 7,
+        text: 'text 7\ntext 7',
+        year: 1935
     },
     {
-        title: 'card 8 card 8'
+        index: 8,
+        text: 'text 8\ntext 8',
+        year: 1940
     }
 ]
