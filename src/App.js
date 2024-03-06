@@ -1,18 +1,38 @@
 import Card from './components/Card';
 import {Reorder} from 'framer-motion'
-import { listData } from './assets/listData'
 import { useState } from 'react';
+import { createList } from './assets/createList';
 import './App.css';
 
-const totalList = listData.slice(2).sort(()=> Math.random() -0.5);
+const totalList = createList();
+const startList = [totalList[0], totalList[1]];
+totalList.pop()
+totalList.pop()
 
 export default  function App() {
-    const [items, setItems] = useState([listData[0], listData[1]])
-    // const [items, setItems] = useState(listData)
+    const [items, setItems] = useState(startList)
 
-    function checkPlace(){
-        for(let i = 0; i < items.length; i++){
-            console.log(items[i])
+    console.log(totalList)
+
+    function moveWrong(o){
+        let index = items.indexOf(o)
+        //Move up
+        if(index < o.position){
+            while(index < o.position || index === items.length){
+                let temp = items[index];
+                items[index] = items[index + 1];
+                items[index + 1] = temp;
+                index = index + 1;
+            }
+        }
+        //Move Down
+        if(index > o.position){
+            while(index > o.position || index === 0){
+                let temp = items[index];
+                items[index] = items[index - 1];
+                items[index - 1] = temp;
+                index = index - 1;
+            }
         }
     }
 
@@ -31,6 +51,7 @@ export default  function App() {
                     place={false}
                     items={items}
                     passUpdate={updateList}
+                    doMove={moveWrong}
                 />
             ))}
         </Reorder.Group>

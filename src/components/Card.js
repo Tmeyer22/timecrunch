@@ -14,11 +14,11 @@ const Card = props => {
         let botCheck = true
         if(index < (length-1)){
             let top = props.items[index+1]
-            topCheck = (top.year > me.year)
+            topCheck = (top.position > me.position)
         }
         if(index !== 0){
             let bottom = props.items[index-1]
-            botCheck = (bottom.year < me.year) 
+            botCheck = (bottom.position < me.position) 
         }
         return (botCheck && topCheck)
     }
@@ -26,7 +26,12 @@ const Card = props => {
     function onClick(){
         setNlocked(false)
         setPlaced(false)
-        setCorrect(doCheck(props.value))
+        if(doCheck(props.value)){
+            setCorrect(true)
+        } else{
+            setCorrect(false)
+            props.doMove(props.value)
+        }
         props.passUpdate()
     }
 
@@ -37,9 +42,10 @@ const Card = props => {
         dragListener={nlocked}
         >
             <ul className='card'>
+                <li> {props.value.year} </li>
                 <li> {props.value.text} </li>
                 {placed && <li><button onClick={onClick}>Tap to place</button></li>}
-                <li> {correct ? "Right" : "Wrong"} </li>
+                {!placed && <li> {correct ? "Right" : "Wrong"} </li>}
             </ul>
         </Reorder.Item>
     )
@@ -48,7 +54,7 @@ const Card = props => {
 Card.propTypes = {
     value: PropTypes.object,
     passUpdate: PropTypes.func,
-    doCheck: PropTypes.func
+    doMove: PropTypes.func
 }
 
 export default Card
