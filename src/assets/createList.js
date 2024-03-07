@@ -14,7 +14,7 @@ function compareIndex(a,b){
 
 export function createList() {
     let listRandom = shuffle(listData);
-    let listShort = listRandom.splice(0,8)
+    let listShort = listRandom.splice(0,9)
     let listShortSort = listShort.sort(compareIndex);
     let count = 0
     let listShortOrder = []
@@ -25,5 +25,6 @@ export function createList() {
     }
     )
     let listShortRandom = listShortOrder.sort(() => Math.random() - 0.5)
+    listShortRandom[0] = {...listShortRandom[0], isFirst: true}
     return(listShortRandom)
 }

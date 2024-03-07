@@ -43,7 +43,7 @@ export const listData = [
     },
     {
         index: 7,
-        text: 'First Confiscation Act',
+        text: 'First Confiscation Act.',
         year: "1/8/1861",
         part: 5
     },
