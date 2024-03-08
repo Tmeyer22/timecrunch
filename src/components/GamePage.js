@@ -1,8 +1,8 @@
 import Card from './Card';
 import {Reorder} from 'framer-motion'
 import { useState } from 'react';
-import '../App.css';
 import Banner from './Banner';
+import './game.css'
 
 export default  function GamePage(props) {
     const [items, setItems] = useState(props.startList)

@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/apush-flashback/static/css/main.43c70e80.css",
-    "main.js": "/apush-flashback/static/js/main.33eb28c6.js",
+    "main.css": "/apush-flashback/static/css/main.b4fb53e8.css",
+    "main.js": "/apush-flashback/static/js/main.94087db0.js",
     "index.html": "/apush-flashback/index.html",
-    "main.43c70e80.css.map": "/apush-flashback/static/css/main.43c70e80.css.map",
-    "main.33eb28c6.js.map": "/apush-flashback/static/js/main.33eb28c6.js.map"
+    "main.b4fb53e8.css.map": "/apush-flashback/static/css/main.b4fb53e8.css.map",
+    "main.94087db0.js.map": "/apush-flashback/static/js/main.94087db0.js.map"
   },
   "entrypoints": [
-    "static/css/main.43c70e80.css",
-    "static/js/main.33eb28c6.js"
+    "static/css/main.b4fb53e8.css",
+    "static/js/main.94087db0.js"
   ]
 }

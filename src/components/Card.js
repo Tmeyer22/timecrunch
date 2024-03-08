@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Reorder } from 'framer-motion';
 import PropTypes  from 'prop-types'
+import './card.css'
 
 const Card = props => {
     //Create states for buttons and placed
@@ -18,9 +19,10 @@ const Card = props => {
         key={props.value.index}
         value={props.value}
         dragListener={nlocked}
+        className='card'
         >
-            <ul className='card'>
-                {!placed && <li> {props.value.year} </li>}
+            {!placed && <div className='year'> {props.value.year} </div>}
+            <ul className='item'>
                 <li> {props.value.text} </li>
                 {placed && <li><button onClick={onClick}>Tap to place</button></li>}
             </ul>
