@@ -14,6 +14,7 @@ const Card = props => {
         props.passUpdate(props.value)
     }
 
+    
     return(
         <Reorder.Item
         key={props.value.index}
@@ -21,11 +22,11 @@ const Card = props => {
         dragListener={nlocked}
         className='card'
         >
-            {!placed && <div className='year'> {props.value.year} </div>}
-            <ul className='item'>
-                <li> {props.value.text} </li>
-                {placed && <li><button onClick={onClick}>Tap to place</button></li>}
-            </ul>
+            <div className='item'>
+                {!placed && <div className={"year " + props.value.status}> {props.value.year} </div>}
+                <div> {props.value.text} </div>
+                {placed && <button className='button' onClick={onClick}>Tap to place</button>}
+            </div>
         </Reorder.Item>
     )
 }

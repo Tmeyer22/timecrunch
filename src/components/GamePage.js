@@ -10,7 +10,7 @@ export default  function GamePage(props) {
     const [rights, setRights] = useState(["active", "", "", "", "", "", "", ""])
     const [finished, setFinished] = useState(false)
 
-    console.log("items", items, "totallist", props.totalList)
+    // console.log("items", items, "totallist", props.totalList)
     function restart(){
         setItems(props.startList)
         setCount(0)
@@ -44,10 +44,11 @@ export default  function GamePage(props) {
                     }
                 }
                 updateRights("wrong")
-                // console.log(items)
+                items[index].status = "wrong"
                 return
             } else {
                 updateRights("correct")
+                items[index].status = "correct"
             }
         }
         //Check below and move
@@ -67,10 +68,11 @@ export default  function GamePage(props) {
                     }
                 }
                 updateRights("wrong")
-                // console.log(items)
+                items[index].status = "wrong"
                 return
             } else {
                 updateRights("correct")
+                items[index].status = "correct"
             }
         }
         // console.log(items)
@@ -100,7 +102,6 @@ export default  function GamePage(props) {
                         key={item.index}
                         value={item}
                         first={!item.isFirst}
-                        items={items}
                         passUpdate={updateList}
                         />
                         ))}
