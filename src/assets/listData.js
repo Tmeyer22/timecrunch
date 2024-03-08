@@ -62,7 +62,7 @@ export const listData = [
     {
         index: 10,
         text: 'Confederacy introduces draft.',
-        year: "15/4/1860",
+        year: "15/4/1862",
         part: 5
     },
     {
@@ -91,20 +91,20 @@ export const listData = [
     },
     {
         index: 15,
-        text: 'Union wins battles at Getterysburg and Vicksburg.',
-        year: "4/7/1863",
-        part: 5
-    },
-    {
-        index: 16,
         text: 'Union initates draft.',
         year: "1/3/1863",
         part: 5
     },
     {
+        index: 16,
+        text: 'Union wins battles at Getterysburg and Vicksburg.',
+        year: "4/7/1863",
+        part: 5
+    },
+    {
         index: 17,
         text: 'Draft riots in New York',
-        year: "1/7/1862",
+        year: "1/7/1863",
         part: 5
     }
 ]

@@ -1,0 +1,31 @@
+.circle-contanier{
+    height: 3px;
+    transform: translateY(5px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 1px;
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;   
+}
+.circle{
+    height: 8px;
+    flex-grow: 1;
+    margin: 0 2px;
+    margin-left: 2px;
+    border-radius: 6px;
+    background-color: #e3e0d5;
+}
+.active{
+    border-width: 2px;
+    border-style: solid;
+    border-color: lightblue;
+}
+.correct{
+    background-color: green;
+}
+.wrong{
+    background-color: red;
+}
