@@ -25,7 +25,7 @@ const Card = props => {
             <div className='item'>
                 {!placed && <div className={"year " + props.value.status}> {props.value.year} </div>}
                 <div> {props.value.text} </div>
-                {placed && <button className='button' onClick={onClick}>Tap to place</button>}
+                {placed && <button className='button-card' onClick={onClick}>Tap to place</button>}
             </div>
         </Reorder.Item>
     )
