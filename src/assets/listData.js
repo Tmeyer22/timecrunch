@@ -1,211 +1,418 @@
 export const listData = [
     {
-        index: 0,
+        index: 346,
         text: 'Abraham Lincoln elected president.',
-        year: "November 6th 1860",
+        date: "November 6th 1860",
         status: "start",
-        part: 5
+        year: 1860
     },
     {
-        index: 1,
+        index: 347,
         text: 'South Carolina secedes.',
-        year: "December 20th 1860",
+        date: "December 20th 1860",
         status: "start",
-        part: 5
+        year: 1860
     },
     {
-        index: 2,
+        index: 348,
         text: 'Lincoln inaugurated.',
-        year: "March 4th 1861",
+        date: "March 4th 1861",
         status: "start",
-        part: 5
+        year: 1861
     },
     {
-        index: 3,
+        index: 349,
         text: 'Confederates fire on Fort Sumter.',
-        year: "April 12th 1861",
+        date: "April 12th 1861",
         status: "start",
-        part: 5
+        year: 1861
     },
     {
-        index: 4,
+        index: 350,
         text: 'Virginia leaves the Union.',
-        year: "April 17th 1861",
+        date: "April 17th 1861",
         status: "start",
-        part: 5
+        year: 1861
     },
     {
-        index: 5,
+        index: 351,
         text: 'General Butler declares refugee slaves "contraband of war".',
-        year: "May 1861",
+        date: "May 1861",
         status: "start",
-        part: 5
+        year: 1861
     },
     {
-        index: 6,
+        index: 352,
         text: 'Confederates win Battle of Bull Run.',
-        year: "July 21st 1861",
+        date: "July 21st 1861",
         status: "start",
-        part: 5
+        year: 1861
     },
     {
-        index: 7,
+        index: 353,
         text: 'First Confiscation Act.',
-        year: "August 1861",
+        date: "August 1861",
         status: "start",
-        part: 5
+        year: 1861
     },
     {
-        index: 8,
-        text: 'Leagl Tender Act authorizes greenbacks',
-        year: "February 1862",
+        index: 354,
+        text: 'Legal Tender Act authorizes greenbacks',
+        date: "February 1862",
         status: "start",
-        part: 5
+        year: 1862
     },
     {
-        index: 9,
+        index: 355,
         text: 'Union triumphs at Shiloh.',
-        year: "April 6th 1862",
+        date: "April 6th 1862",
         status: "start",
-        part: 5
+        year: 1862
     },
     {
-        index: 10,
+        index: 356,
         text: 'Confederacy introduces draft.',
-        year: "April 1862",
+        date: "April 1862",
         status: "start",
-        part: 5
+        year: 1862
     },
     {
-        index: 11,
+        index: 357,
         text: 'Congress passes Homestead Act and Transcontinental Railroad Act.',
-        year: "May, July 1862",
+        date: "May, July 1862",
         status: "start",
-        part: 5
+        year: 1862
     },
     {
-        index: 12,
+        index: 358,
         text: 'Union halts Confederates at Antietam.',
-        year: "September 17th 1862",
+        date: "September 17th 1862",
         status: "start",
-        part: 5
+        year: 1862
     },
     {
-        index: 13,
+        index: 359,
         text: 'Perliminary emancipation proclamation.',
-        year: "September 22nd 1862",
+        date: "September 22nd 1862",
         status: "start",
-        part: 5
+        year: 1862
     },
     {
-        index: 14,
+        index: 360,
         text: 'Licoln signs Emancipation Proclamation.',
-        year: "January 1st 1863",
+        date: "January 1st 1863",
         status: "start",
-        part: 5
+        year: 1863
     },
     {
-        index: 15,
+        index: 361,
         text: 'Union initates draft.',
-        year: "March 1863",
+        date: "March 1863",
         status: "start",
-        part: 5
+        year: 1863
     },
     {
-        index: 16,
+        index: 362,
         text: 'Union wins battles at Getterysburg and Vicksburg.',
-        year: "July 1-4 1863",
+        date: "July 1-4 1863",
         status: "start",
-        part: 5
+        year: 1863
     },
     {
-        index: 17,
+        index: 363,
         text: 'Draft riots in New York.',
-        year: "July 1863",
+        date: "July 1863",
         status: "start",
-        part: 5
-    },{
-        index: 18,
+        year: 1863
+    },
+    {
+        index: 364,
         text: 'Ulysses S. Grant nammed Union Commander.',
-        year: "March 1864",
+        date: "March 1864",
         status: "start",
-        part: 5
+        year: 1864
     },
     {
-        index: 19,
+        index: 365,
         text: 'Grant advances on Richmond.',
-        year: "May 1864",
+        date: "May 1864",
         status: "start",
-        part: 5
+        year: 1864
     },
     {
-        index: 20,
+        index: 366,
         text: 'William Tecumseh Sherman takes Atlanta.',
-        year: "Spetember 2nd 1864",
+        date: "Spetember 2nd 1864",
         status: "start",
-        part: 5
+        year: 1864
     },
     {
-        index: 21,
+        index: 367,
         text: 'Lincoln Reelected.',
-        year: "November 8th 1864",
+        date: "November 8th 1864",
         status: "start",
-        part: 5
+        year: 1864
     },
     {
-        index: 22,
+        index: 368,
         text: 'Sherman marches through Georgia.',
-        year: "November and December 1864",
+        date: "November and December 1864",
         status: "start",
-        part: 5
+        year: 1864
     },  
     {
-        index: 23,
+        index: 369,
         text: 'Wade-Davis Bill passed by Congress but killed by Lincoln\'s pocket veto.',
-        year: "November 6th 1860",
+        date: "1864",
         status: "start",
-        part: 5
+        year: 1864
     },
     {
-        index: 24,
+        index: 370,
         text: 'Congress approves Thirteenth Amendment.',
-        year: "January 31st 1865",
+        date: "January 31st 1865",
         status: "start",
-        part: 5
+        year: 1865
     },
     {
-        index: 25,
+        index: 371,
         text: 'Robert E. Lee surrenders.',
-        year: "April 9th 1865",
+        date: "April 9th 1865",
         status: "start",
-        part: 5
+        year: 1865
     },
     {
-        index: 26,
+        index: 372,
         text: 'Lincoln assassinated.',
-        year: "Apirl 14th 1865",
+        date: "Apirl 14th 1865",
         status: "start",
-        part: 5
+        year: 1865
     },
     {
-        index: 27,
+        index: 373,
         text: 'Thirteenth Amendment ratified.',
-        year: "December 6th 1865",
+        date: "December 6th 1865",
         status: "start",
-        part: 5
+        year: 1865
     },  
     {
-        index: 28,
+        index: 374,
         text: 'Freedmen\'s Bureau established.',
-        year: "1865",
+        date: "1865",
         status: "start",
-        part: 5
+        year: 1865
     },
     {
-        index: 29,
+        index: 375,
         text: 'Johnson implments restoation plan.',
-        year: "1865",
+        date: "1865",
         status: "start",
-        part: 5
-    }
+        year: 1865
+    },
+    
+    
+    
+    {
+        index: 519,
+        text: 'New Ku Klux Klan founded.',
+        date: "1915",
+        status: "start",
+        year: 1915
+    },
+    {
+        index: 520,
+        text: 'United States occupies Haiti.',
+        date: "1915",
+        status: "start",
+        year: 1915
+    },
+    {
+        index: 521,
+        text: 'United States occupies Dominican Republic.',
+        date: "1916",
+        status: "start",
+        year: 1916
+    },
+    {
+        index: 522,
+        text: 'Race Riot in East St. Louis, Illinois.',
+        date: "1917",
+        status: "start",
+        year: 1917
+    },
+    {
+        index: 523,
+        text: 'Race Riot in Chicago.',
+        date: "1919",
+        status: "start",
+        year: 1919
+    },
+    {
+        index: 524,
+        text: 'Boston Police strike.',
+        date: "1919",
+        status: "start",
+        year: 1919
+    },
+    {
+        index: 525,
+        text: 'Palmer Raids.',
+        date: "1919",
+        status: "start",
+        year: 1919
+    },
+    {
+        index: 526,
+        text: 'Women\'s International League for Peace and Freedom founded.',
+        date: "1919",
+        status: "start",
+        year: 1919
+    },
+    {
+        index: 527,
+        text: 'Height of the Red Scare.',
+        date: "1920",
+        status: "start",
+        year: 1920
+    },
+    {
+        index: 528,
+        text: 'Eighteenth Amendment (Prohibition) takes effect.',
+        date: "1920",
+        status: "start",
+        year: 1920
+    },
+    {
+        index: 529,
+        text: 'Warren Harding wins Presidency.',
+        date: "1920",
+        status: "start",
+        year: 1920
+    },
+    {
+        index: 530,
+        text: 'Eugene O\'Neill\'s The Emperor Jones.',
+        date: "1920",
+        status: "start",
+        year: 1920
+    },
+    {
+        index: 531,
+        text: 'Race riots in Rosewodd, Florida and Tulsa, Oklahoma.',
+        date: "1921",
+        status: "start",
+        year: 1921
+    },
+    {
+        index: 532,
+        text: 'Sheppard-Tower Federal Maternity and Infancy Act.',
+        date: "1921",
+        status: "start",
+        year: 1921
+    },
+    {
+        index: 533,
+        text: 'Adkins v. Children\'s Hospital.',
+        date: "1923",
+        status: "start",
+        year: 1923
+    },
+    {
+        index: 534,
+        text: 'President Harding dies',
+        date: "1923",
+        status: "start",
+        year: 1923
+    },
+    {
+        index: 535,
+        text: 'Calvin Coolidge assumes presidency.',
+        date: "1923",
+        status: "start",
+        year: 1923
+    },
+    {
+        index: 536,
+        text: 'Teapot Dome scandal.',
+        date: "1923",
+        status: "start",
+        year: 1923
+    },
+    {
+        index: 537,
+        text: 'Equal Rights Amendment first introduced in Congress.',
+        date: "1923",
+        status: "start",
+        year: 1923
+    },
+    {
+        index: 538,
+        text: 'National Origins Act.',
+        date: "1924",
+        status: "start",
+        year: 1924
+    },
+    {
+        index: 539,
+        text: 'Coolidge wins presidential election against Democrats and La Follett\'s Progressive Party.',
+        date: "1924",
+        status: "start",
+        year: 1924
+    },
+    {
+        index: 540,
+        text: 'First suburban shopping center opens outside Kansas City, Missouri.',
+        date: "1924",
+        status: "start",
+        year: 1924
+    },
+    {
+        index: 541,
+        text: 'Coronado Coal Company v. United Mine Workers.',
+        date: "1925",
+        status: "start",
+        year: 1925
+    },
+    {
+        index: 542,
+        text: 'Scopes "monkey trail".',
+        date: "1925",
+        status: "start",
+        year: 1925
+    },
+    {
+        index: 543,
+        text: 'Alain Locke\'s The New Negro.',
+        date: "1925",
+        status: "start",
+        year: 1925
+    },
+    {
+        index: 544,
+        text: 'F. Scott Fitzgerald\'s The Gre Gatsby.',
+        date: "1925",
+        status: "start",
+        year: 1925
+    },
+    {
+        index: 545,
+        text: 'Sacco and Vanzetti executed.',
+        date: "1927",
+        status: "start",
+        year: 1927
+    },
+    {
+        index: 546,
+        text: 'Herbert Hoover wins presidency.',
+        date: "1928",
+        status: "start",
+        year: 1928
+    },
+    {
+        index: 547,
+        text: 'Stock market crashes precipitate Great Depression.',
+        date: "1929",
+        status: "start",
+        year: 1929
+    },
 ]

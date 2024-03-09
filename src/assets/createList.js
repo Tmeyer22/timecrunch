@@ -12,8 +12,9 @@ function compareIndex(a,b){
     return a.index - b.index;
 }
 
-export function createList() {
-    let listRandom = shuffle(listData);
+export function createList(range) {
+    let listCut = listData.filter((me) => (me.year > range[0] && me.year < range[1]))
+    let listRandom = shuffle(listCut);
     let listShort = listRandom.splice(0,9)
     let listShortSort = listShort.sort(compareIndex);
     let count = 0

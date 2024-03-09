@@ -1,4 +1,3 @@
-import { useState } from "react"
 import './banner.css'
 import Circle from "./Circle"
 

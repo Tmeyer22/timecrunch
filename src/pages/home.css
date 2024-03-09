@@ -1,0 +1,26 @@
+.box{
+    /* font-family: var(--frank); */
+    text-align: center;  
+    z-index: 2;
+    position: relative;
+    background: white;
+    padding: 30px 10px 0 10px;
+    width: 500px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    min-height: 100px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid #e3e0d5;
+}
+.button{
+    background: #5d72c9;
+    border-radius: 15px;
+    color: antiquewhite;
+    position: relative;
+    font-size: large;
+    height: 35px;
+    width: 200px;
+}

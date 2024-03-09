@@ -7,15 +7,10 @@ import './game.css'
 export default  function GamePage(props) {
     const [items, setItems] = useState(props.startList)
     const [count, setCount] = useState(0)
-    const [rights, setRights] = useState(["active", "", "", "", "", "", "", ""])
+    const [rights] = useState(["active", "", "", "", "", "", "", ""])
     const [finished, setFinished] = useState(false)
 
     // console.log("items", items, "totallist", props.totalList)
-    function restart(){
-        setItems(props.startList)
-        setCount(0)
-        setRights(["active", "", "", "", "", "", "", ""])
-    }
 
     function updateRights(bol){
         rights[count] = bol
@@ -110,7 +105,6 @@ export default  function GamePage(props) {
             {finished? 
                 <div>
                     <button onClick={props.restart}> Back to Menu </button>
-                    {/* <button onClick={restart}> Try Again? </button> */}
                 </div>
                 :
                 <></>

@@ -5,7 +5,7 @@ import HomePage from "./pages/home";
 
 export default  function App() {
     const [started, Start] = useState(false)
-    const [yearRange, setRange] = useState([])
+    const [yearRange, setRange] = useState([1776, 1945])
 
     function handleClick(){
         Start(!started)
