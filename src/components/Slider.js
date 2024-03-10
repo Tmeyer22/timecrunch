@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from '@mui/material/Slider';
+import './Slider.css'
 
 function valuetext(value) {
     return `${value}°C`;
@@ -28,15 +29,26 @@ export default function DateSlider(props){
     };
 
     return(
-        <Slider
-            getAriaLabel={() => 'Temperature range'}
-            value={value}
-            onChange={handleChange}
-            valueLabelDisplay="auto"
-            getAriaValueText={valuetext}
-            min={1450}
-            max={2024}
-            disableSwap
-        />
+        <div className="slider-box">
+            <div className="labels">
+                From: {value[0]}
+            </div>
+            <Slider
+                getAriaLabel={() => 'Temperature range'}
+                value={value}
+                onChange={handleChange}
+                valueLabelDisplay="off"
+                getAriaValueText={valuetext}
+                min={1450}
+                max={2024}
+                disableSwap
+                sx={{
+                    width:300,
+                }}
+            />
+            <div className="labels">
+                To: {value[1]}
+            </div>
+        </div>
     )
 }

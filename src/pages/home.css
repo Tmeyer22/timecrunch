@@ -1,11 +1,10 @@
 .box{
-    /* font-family: var(--frank); */
     text-align: center;  
     z-index: 2;
     position: relative;
     background: white;
     padding: 30px 10px 0 10px;
-    width: 500px;
+    width: 600px;
     left: 0;
     right: 0;
     top: 0;

@@ -7,6 +7,7 @@ import './game.css'
 export default  function GamePage(props) {
     const [items, setItems] = useState(props.startList)
     const [count, setCount] = useState(0)
+    const [right, setRight] = useState(0)
     const [rights] = useState(["active", "", "", "", "", "", "", ""])
     const [finished, setFinished] = useState(false)
 
@@ -16,6 +17,10 @@ export default  function GamePage(props) {
         rights[count] = bol
         rights[count + 1] = "active"
         setCount(count+1)
+        console.log(bol, right)
+        if(bol === "correct"){
+            setRight(right+1)
+        }
     }
 
     function newMove(me){
@@ -88,27 +93,25 @@ export default  function GamePage(props) {
     return (
         <div className='column'>
             <div className='header'>
-                <Banner number={(count > 7) ? count : count + 1} guess={rights}/>
+                    {finished? 
+                        <div className='finished-box'>
+                            <p>Great! You got {right} of 8 correct.</p>
+                            <button className='back-button' onClick={props.restart}> Back to Menu </button>
+                        </div>
+                        :
+                        <Banner number={(count > 7) ? count : count + 1} guess={rights}/>
+                    }
             </div>
-            <div className='list'>
-                <Reorder.Group axis='y' values={items} onReorder={setItems}>
-                    {items.map((item) => (
-                        <Card
-                        key={item.index}
-                        value={item}
-                        first={!item.isFirst}
-                        passUpdate={updateList}
-                        />
-                        ))}
-                </Reorder.Group>
-            </div>
-            {finished? 
-                <div>
-                    <button onClick={props.restart}> Back to Menu </button>
-                </div>
-                :
-                <></>
-            }
+            <Reorder.Group axis='y' values={items} onReorder={setItems}  className='list'>
+                {items.map((item) => (
+                    <Card
+                    key={item.index}
+                    value={item}
+                    first={!item.isFirst}
+                    passUpdate={updateList}
+                    />
+                    ))}
+            </Reorder.Group>
         </div>
     );
 }

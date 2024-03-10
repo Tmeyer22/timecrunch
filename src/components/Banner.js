@@ -4,8 +4,10 @@ import Circle from "./Circle"
 const Banner = props => {
 
     return(
-        <div>
-            <p>{props.number} of 8</p>
+        <div className='banner'>
+            <div
+            //  className='score-text'
+            >{props.number} of 8</div>
             <div className="circle-contanier">
                 <Circle status={props.guess[0]}/>
                 <Circle status={props.guess[1]}/>

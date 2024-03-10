@@ -6,7 +6,7 @@ export default function HomePage(props){
     return(
         <div>
             <div className="box">
-                <h1>Apush Timeline Game!</h1>
+                <h1>Welcome to Timecrunch</h1>
                 <button className="button" onClick={props.onClick}> Start Game</button>
                 <Slider handleSlider={props.handleSlider}/>
             </div>

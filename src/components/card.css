@@ -1,11 +1,11 @@
 .button-card{
-    background: #5d72c9;
     border-radius: 15px;
     color: antiquewhite;
+    height: 30px;
     position: absolute;
-    height: 25px;
     top: -15px;
     width: 150px;
+    background: #5d72c9;
 }
 .clear{
     opacity: 0;
@@ -27,7 +27,8 @@
     height: 75px;
     justify-content: center;
     text-align: center;
-    width: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .start{
     background: gray;
