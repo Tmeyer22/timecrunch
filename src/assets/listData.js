@@ -889,7 +889,7 @@ export const listData = [
     },
     {
         index: 126,
-        text: 'john Adams publishes Thoughts on Goverment.',
+        text: 'John Adams publishes Thoughts on Goverment.',
         date: "1776",
         status: "start",
         year: 1776
@@ -1001,59 +1001,774 @@ export const listData = [
     },
     {
         index: 142,
+        text: 'St. Jean de Crevecoeur publishes Letter from an American Farmer.',
+        date: "1782",
+        status: "start",
+        year: 1782
+    },
+    {
+        index: 143,
+        text: 'Virginia manumission law.',
+        date: "1782",
+        status: "start",
+        year: 1782
+    },
+    //====================================================================================================================================================================
+    {
+        index: 144,
+        text: 'Oliver Evans builds automated flour mill.',
+        date: "1782",
+        status: "start",
+        year: 1782
+    },
+    {
+        index: 145,
         text: 'Treaty of Paris officiallty ends War for American Independence.',
         date: "September 3rd, 1783",
         status: "start",
         year: 1783
     },
     {
-        index: 143,
+        index: 146,
+        text: 'Noah Webster publishes his "blue-black speller".',
+        date: "1783",
+        status: "start",
+        year: 1783
+    },
+    {
+        index: 147,
         text: 'Congress enacts political and land ordinances for new states.',
         date: "1784-1785",
         status: "start",
         year: 1784
     },
     {
-        index: 144,
+        index: 148,
+        text: 'Slavery ends in Massachusetts.',
+        date: "1784",
+        status: "start",
+        year: 1784
+    },
+    {
+        index: 149,
+        text: 'Northern states begin gradual emancipation.',
+        date: "1784",
+        status: "start",
+        year: 1784
+    },
+    {
+        index: 150,
         text: 'Nationalists hold convention in Annapolis, Maryland.',
         date: "1786",
         status: "start",
         year: 1786
     },
     {
-        index: 145,
+        index: 151,
         text: 'Shays\'s Rebellion roils Massachusetts.',
         date: "1786",
         status: "start",
         year: 1786
     },
     {
-        index: 146,
+        index: 152,
         text: 'Congress passes Northwest Ordinance.',
         date: "1787",
         status: "start",
         year: 1787
     },
     {
-        index: 147,
+        index: 153,
         text: 'Constitutional Convention in Philadelphia.',
         date: "1787",
         status: "start",
         year: 1787
     },
     {
-        index: 148,
+        index: 154,
         text: 'Jay, Madison, and Hamilton write The Federalist.',
         date: "1787-1788",
         status: "start",
         year: 1787
     },
     {
-        index: 149,
+        index: 155,
         text: 'Eleven states ratify U.S. Constitution.',
         date: "1787-1788",
         status: "start",
         year: 1787
+    },
+    {
+        index: 156,
+        text: 'Benjamin Rush writes Thoughts on Female Education.',
+        date: "1787",
+        status: "start",
+        year: 1787
+    },
+    {
+        index: 157,
+        text: 'Contested Indian treaties: Fort Stanwix, Fort McIntosh, Fort Finney, and Fort Harmar.',
+        date: "1784, 1785, 1786, 1789",
+        status: "start",
+        year: 1789
+    },
+    {
+        index: 158,
+        text: 'French Revolution.',
+        date: "1789-1799",
+        status: "start",
+        year: 1789
+    },
+    {
+        index: 159,
+        text: 'Judiciary Act establishes federal courts.',
+        date: "1789",
+        status: "start",
+        year: 1789
+    },
+    {
+        index: 160,
+        text: 'Hamilton\'s public credit system approved.',
+        date: "1790",
+        status: "start",
+        year: 1790
+    },
+    {
+        index: 161,
+        text: 'Western Confederacy defeats U.S. armies.',
+        date: "1790-1791",
+        status: "start",
+        year: 1790
+    },
+    {
+        index: 162,
+        text: 'Samuel Slater opens spinning mill in Providence, Rhodes Island.',
+        date: "1790",
+        status: "start",
+        year: 1790
+    },
+    {
+        index: 163,
+        text: 'States grant corporations charters and special privileges.',
+        date: "1790s",
+        status: "start",
+        year: 1790
+    },
+    {
+        index: 164,
+        text: 'Private companies build roads and canals to facilitate trade.',
+        date: "1790s",
+        status: "start",
+        year: 1790
+    },
+    {
+        index: 165,
+        text: 'Merchants expand rural outwork system.',
+        date: "1790s",
+        status: "start",
+        year: 1790
+    },
+    {
+        index: 166,
+        text: 'Chesapeake blacks adopts Protestant beliefs.',
+        date: "1790s",
+        status: "start",
+        year: 1790
+    },
+    {
+        index: 167,
+        text: 'Parents limit family size as farms shrink.',
+        date: "1790s",
+        status: "start",
+        year: 1790
+    },
+    {
+        index: 168,
+        text: 'Second Great Awakening expands church membership.',
+        date: "1790s",
+        status: "start",
+        year: 1790
+    },
+    {
+        index: 169,
+        text: 'Haitian Revolution.',
+        date: "1791-1803",
+        status: "start",
+        year: 1791
+    },
+    {
+        index: 170,
+        text: 'Bills of Rights ratified.',
+        date: "1791",
+        status: "start",
+        year: 1791
+    },
+    {
+        index: 171,
+        text: 'Bank of the United States chartered.',
+        date: "1791",
+        status: "start",
+        year: 1791
+    },
+    {
+        index: 172,
+        text: 'Congress pass Post Office Act.',
+        date: "1792",
+        status: "start",
+        year: 1792
+    },
+    {
+        index: 173,
+        text: 'Mary Wollstonecraft publishes A Vindication of the Rights of Woman.',
+        date: "1792",
+        status: "start",
+        year: 1792
+    },
+    {
+        index: 174,
+        text: 'Kentucky joins the Union.',
+        date: "1792",
+        status: "start",
+        year: 1792
+    },
+    {
+        index: 175,
+        text: 'War between Britain and France.',
+        date: "1793",
+        status: "start",
+        year: 1793
+    },
+    {
+        index: 176,
+        text: 'Eli Whiteney devises cotton gin.',
+        date: "1793",
+        status: "start",
+        year: 1793
+    },
+    {
+        index: 177,
+        text: 'Madison and Jefferson found Republican Party.',
+        date: "1794",
+        status: "start",
+        year: 1794
+    },
+    {
+        index: 178,
+        text: 'Whiskey Rebellion.',
+        date: "1794",
+        status: "start",
+        year: 1794
+    },
+    {
+        index: 179,
+        text: 'Battle of Fallen Timbers.',
+        date: "1794",
+        status: "start",
+        year: 1794
+    },
+    {
+        index: 180,
+        text: 'Massachusetts Mill Dam Act.',
+        date: "1795",
+        status: "start",
+        year: 1795
+    },
+    {
+        index: 181,
+        text: 'Jay\'s Treaty with Great Britian.',
+        date: "1795",
+        status: "start",
+        year: 1795
+    },
+    {
+        index: 182,
+        text: 'Pinckney\'s Treaty with Spain.',
+        date: "1795",
+        status: "start",
+        year: 1795
+    },
+    {
+        index: 183,
+        text: 'Treaty of Greenville accepts Indian land rights.',
+        date: "1795",
+        status: "start",
+        year: 1795
+    },
+    {
+        index: 184,
+        text: 'XYZ Affair.',
+        date: "1798",
+        status: "start",
+        year: 1798
+    },
+    {
+        index: 185,
+        text: 'Alien, Sedition, and Naturalization Acts.',
+        date: "1798",
+        status: "start",
+        year: 1798
+    },
+    {
+        index: 186,
+        text: 'Virginia and Kentucky Resolutions.',
+        date: "1798",
+        status: "start",
+        year: 1798
+    },  
+    {
+        index: 187,
+        text: 'Jefferson elected president.',
+        date: "1800",
+        status: "start",
+        year: 1800
+    }, 
+    {
+        index: 188,
+        text: 'Gabriel Prosser plots slave rebellion in Virginia.',
+        date: "1800",
+        status: "start",
+        year: 1800
+    },
+    {
+        index: 189,
+        text: 'Rise of sentimentalism and of companionate marriages.',
+        date: "1800s",
+        status: "start",
+        year: 1800
+    },
+    {
+        index: 190,
+        text: 'Women\'s religious activism.',
+        date: "1800s",
+        status: "start",
+        year: 1800
+    },
+    {
+        index: 191,
+        text: 'Founding of female academies.',
+        date: "1800s",
+        status: "start",
+        year: 1800
+    },
+    {
+        index: 192,
+        text: 'Religious benevolence sparks social reform.',
+        date: "1800s",
+        status: "start",
+        year: 1800
+    },
+    {
+        index: 193,
+        text: 'Gallatin reduces national debt.',
+        date: "1801-1812",
+        status: "start",
+        year: 1801
+    },
+    {
+        index: 194,
+        text: 'Cane Ridge revival in Kentucky.',
+        date: "1801",
+        status: "start",
+        year: 1801
+    },
+    {
+        index: 195,
+        text: 'Louisiana Purchase.',
+        date: "1803",
+        status: "start",
+        year: 1803
+    },
+    {
+        index: 196,
+        text: 'Marbury v. Madison asserts judicial review.',
+        date: "1803",
+        status: "start",
+        year: 1803
+    },
+    {
+        index: 197,
+        text: 'Lewis and Clark explore the West.',
+        date: "1804-1806",
+        status: "start",
+        year: 1804
+    },
+    {
+        index: 198,
+        text: 'Embargo Act cripples American shipping.',
+        date: "1807",
+        status: "start",
+        year: 1807
+    },
+    {
+        index: 199,
+        text: 'Madison elected president.',
+        date: "1808",
+        status: "start",
+        year: 1808
+    },
+    {
+        index: 200,
+        text: 'Tecumesh and Tenskwatawa revive Western Confederacy.',
+        date: "1809",
+        status: "start",
+        year: 1809
+    },
+    {
+        index: 201,
+        text: 'States expand white male voting rights.',
+        date: "1810s",
+        status: "start",
+        year: 1810
+    },
+    {
+        index: 202,
+        text: 'Martin Van Buren creates disciplined party in New York.',
+        date: "1810s",
+        status: "start",
+        year: 1810
+    },
+    {
+        index: 203,
+        text: 'War of 1812.',
+        date: "1812-1815",
+        status: "start",
+        year: 1812
+    },
+    {
+        index: 204,
+        text: 'Boston Manufacturing Company opens factory in Waltham, Massachusetts.',
+        date: "1814",
+        status: "start",
+        year: 1814
+    },
+    {
+        index: 202,
+        text: 'Congress levies protective tariffs.',
+        date: "1816-1828",
+        status: "start",
+        year: 1816
+    },
+    {
+        index: 206,
+        text: 'Era of Good Feeling.',
+        date: "1817-1825",
+        status: "start",
+        year: 1817
+    },
+    {
+        index: 207,
+        text: 'Prominent whites create American Colonization Society.',
+        date: "1817",
+        status: "start",
+        year: 1817
+    },
+    {
+        index: 208,
+        text: 'Erie Canal begun.',
+        date: "1817",
+        status: "start",
+        year: 1817
+    },
+    {
+        index: 209,
+        text: 'Adams-Onis Treaty.',
+        date: "1819",
+        status: "start",
+        year: 1819
+    },
+    {
+        index: 210,
+        text: 'McCulloch v. Maryland.',
+        date: "1819",
+        status: "start",
+        year: 1819
+    },
+    {
+        index: 211,
+        text: 'Dartmouth College v. Woodward.',
+        date: "1819",
+        status: "start",
+        year: 1819
+    },
+    {
+        index: 212,
+        text: 'Plummeting agricultural prices set off financial panic.',
+        date: "1819",
+        status: "start",
+        year: 1819
+    },
+    {
+        index: 213,
+        text: 'Missouri Compromise.',
+        date: "1819-1821",
+        status: "start",
+        year: 1819
+    },
+    {
+        index: 214,
+        text: 'States reform education.',
+        date: "1820s",
+        status: "start",
+        year: 1820
+    },
+    {
+        index: 215,
+        text: 'Women become schoolteachers.',
+        date: "1820s",
+        status: "start",
+        year: 1820
+    },
+    {
+        index: 216,
+        text: 'New England women take textile jobs.',
+        date: "1820s",
+        status: "start",
+        year: 1820
+    },
+    {
+        index: 217,
+        text: 'Rise of Benevolent Empire suprs conservative social reforms.',
+        date: "1820s",
+        status: "start",
+        year: 1820
+    },
+    {
+        index: 218,
+        text: 'Urban population surges in Northeast and Midweast; shoe entrepreneurs adopt division of labor.',
+        date: "1820-1840",
+        status: "start",
+        year: 1820
+    },
+    {
+        index: 219,
+        text: 'Giibons v. Ogden promotes interstate trade.',
+        date: "1824",
+        status: "start",
+        year: 1824
+    },
+    {
+        index: 220,
+        text: 'House of Representatives selects John Quincy Adams as president.',
+        date: "1825",
+        status: "start",
+        year: 1825
+    },
+    {
+        index: 221,
+        text: 'Adams endorses Henry Clay\'s American System.',
+        date: "1825",
+        status: "start",
+        year: 1825
+    },
+    {
+        index: 222,
+        text: 'Working Men\'s Parties wins support.',
+        date: "1828",
+        status: "start",
+        year: 1828
+    },
+    {
+        index: 223,
+        text: 'Tariff of Abominations raises duties.',
+        date: "1828",
+        status: "start",
+        year: 1828
+    },
+    {
+        index: 224,
+        text: 'Andrew Jackson elected president.',
+        date: "1828",
+        status: "start",
+        year: 1828
+    },
+    {
+        index: 225,
+        text: 'John C. Calhoun\'s South Carolina Exopsition and Protest.',
+        date: "1824",
+        status: "start",
+        year: 1824
+    },
+    {
+        index: 226,
+        text: 'Jackson vetos National Road bill.',
+        date: "1830",
+        status: "start",
+        year: 1830
+    },
+    {
+        index: 227,
+        text: 'Congress enacts Jackson\'s Indian Removal Act.',
+        date: "1830",
+        status: "start",
+        year: 1830
+    },
+    {
+        index: 228,
+        text: 'Emergence of western commercial cities.',
+        date: "1830s",
+        status: "start",
+        year: 1830
+    },
+    {
+        index: 229,
+        text: 'Labor movement gains strength.',
+        date: "1830s",
+        status: "start",
+        year: 1830
+    },
+    {
+        index: 230,
+        text: 'Middle-class culture emerges.',
+        date: "1830s",
+        status: "start",
+        year: 1830
+    },
+    {
+        index: 231,
+        text: 'Growth of temperance movement.',
+        date: "1830s",
+        status: "start",
+        year: 1830
+    },
+    {
+        index: 232,
+        text: 'Charles G. Finney begins Rochester revivals.',
+        date: "1830",
+        status: "start",
+        year: 1830
+    },
+    {
+        index: 233,
+        text: 'Cherokee Nation v. Georgia denies Indians\' independence, but Worcester v. Georgia upholds their political.',
+        date: "1831",
+        status: "start",
+        year: 1831
+    },
+    {
+        index: 234,
+        text: 'Massacre of 850 Sauk and Fox warriors and Bad Axe.',
+        date: "1832",
+        status: "start",
+        year: 1832
+    },
+    {
+        index: 235,
+        text: 'Jackson vetos renewal of Second Bank.',
+        date: "1832",
+        status: "start",
+        year: 1832
+    },
+    {
+        index: 236,
+        text: 'South Carolina adopts Ordiance of Nullification.',
+        date: "1832",
+        status: "start",
+        year: 1832
+    },
+    {
+        index: 237,
+        text: 'Congress enacts compromise tariff.',
+        date: "1833",
+        status: "start",
+        year: 1833
+    },
+    {
+        index: 238,
+        text: 'Whig Party formed by Clay, Calhoun, and Daniel Webster.',
+        date: "1834",
+        status: "start",
+        year: 1834
+    },
+    {
+        index: 239,
+        text: 'Roger Taney named Supreme Court chief justice.',
+        date: "1835",
+        status: "start",
+        year: 1835
+    },
+    {
+        index: 240,
+        text: 'Martin Van Buren elected president.',
+        date: "1836",
+        status: "start",
+        year: 1836
+    },
+    {
+        index: 241,
+        text: 'Charles River Bridge case weakens chartered monopolies.',
+        date: "1837",
+        status: "start",
+        year: 1837
+    },
+    {
+        index: 242,
+        text: 'Panic of 18__ derails economy and labor movement.',
+        date: "1837",
+        status: "start",
+        year: 1837
+    },
+    {
+        index: 243,
+        text: 'Many Cherokees die in Trail of Tears march to Indian Territory.',
+        date: "1838",
+        status: "start",
+        year: 1838
+    },
+    {
+        index: 244,
+        text: 'Defaults on bonds by stat governments spark international financial crisis and dpression.',
+        date: "1839-1843",
+        status: "start",
+        year: 1839
+    },
+    {
+        index: 245,
+        text: 'Whigs win "log cabin campaign".',
+        date: "1840",
+        status: "start",
+        year: 1840
+    },
+    {
+        index: 246,
+        text: 'Irish and German immigration sparks ethnic riots.',
+        date: "1840s",
+        status: "start",
+        year: 1840
+    },
+    {
+        index: 247,
+        text: 'Maturation of machine-tool industry.',
+        date: "1840s",
+        status: "start",
+        year: 1840
+    },
+    {
+        index: 248,
+        text: 'John Tyler succeeds William Henry Harrison as president.',
+        date: "1842",
+        status: "start",
+        year: 1842
+    },
+    {
+        index: 249,
+        text: 'Commonwealth v. Hunt legitimizes trade unions.',
+        date: "1842",
+        status: "start",
+        year: 1842
+    },
+    {
+        index: 250,
+        text: 'Expansion of railroads in Northeast and Midwest.',
+        date: "1850s",
+        status: "start",
+        year: 1850
+    },  
+    {
+        index: 251,
+        text: 'Overproduction and speculation trigger a business recession.',
+        date: "1857",
+        status: "start",
+        year: 1857
     },
 
     //Chapter 13

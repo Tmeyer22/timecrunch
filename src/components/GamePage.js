@@ -17,7 +17,7 @@ export default  function GamePage(props) {
         rights[count] = bol
         rights[count + 1] = "active"
         setCount(count+1)
-        console.log(bol, right)
+        // console.log(bol, right)
         if(bol === "correct"){
             setRight(right+1)
         }
