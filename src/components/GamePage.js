@@ -7,7 +7,6 @@ import './game.css'
 export default  function GamePage(props) {
     const [items, setItems] = useState(props.startList)
     const [count, setCount] = useState(0)
-    const [right, setRight] = useState(0)
     const [rights] = useState(["active", "", "", "", "", "", "", ""])
     const [finished, setFinished] = useState(false)
 
@@ -17,10 +16,6 @@ export default  function GamePage(props) {
         rights[count] = bol
         rights[count + 1] = "active"
         setCount(count+1)
-        // console.log(bol, right)
-        if(bol === "correct"){
-            setRight(right+1)
-        }
     }
 
     function newMove(me){
@@ -95,8 +90,8 @@ export default  function GamePage(props) {
             <div className='header'>
                     {finished? 
                         <div className='finished-box'>
-                            <p>Great! You got {right} of 8 correct.</p>
-                            <button className='back-button' onClick={props.restart}> Back to Menu </button>
+                            <p>Great! You got {rights.filter((x) => x === "correct").length} of 8 correct.</p>
+                            <button className='back-button' onClick={props.restart}> Play Again? </button>
                         </div>
                         :
                         <Banner number={(count > 7) ? count : count + 1} guess={rights}/>

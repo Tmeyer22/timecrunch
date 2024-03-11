@@ -1429,556 +1429,1021 @@ export const listData = [
     },
     {
         index: 203,
+        text: 'Africans from the Congo region influence black culture for decades.',
+        date: "1810s",
+        status: "start",
+        year: 1810
+    },
+    {
+        index: 204,
+        text: 'Domestic slave trade expands, disrupting black family life.',
+        date: "1810s",
+        status: "start",
+        year: 1810
+    },
+    {
+        index: 205,
+        text: 'Louisiana becomes a state, and its sugar output increases.',
+        date: "1812",
+        status: "start",
+        year: 1812
+    },
+    {
+        index: 206,
         text: 'War of 1812.',
         date: "1812-1815",
         status: "start",
         year: 1812
     },
     {
-        index: 204,
+        index: 207,
         text: 'Boston Manufacturing Company opens factory in Waltham, Massachusetts.',
         date: "1814",
         status: "start",
         year: 1814
     },
     {
-        index: 202,
+        index: 208,
         text: 'Congress levies protective tariffs.',
         date: "1816-1828",
         status: "start",
         year: 1816
     },
     {
-        index: 206,
+        index: 209,
         text: 'Era of Good Feeling.',
         date: "1817-1825",
         status: "start",
         year: 1817
     },
     {
-        index: 207,
+        index: 210,
         text: 'Prominent whites create American Colonization Society.',
         date: "1817",
         status: "start",
         year: 1817
     },
     {
-        index: 208,
+        index: 211,
         text: 'Erie Canal begun.',
         date: "1817",
         status: "start",
         year: 1817
     },
     {
-        index: 209,
+        index: 212,
+        text: 'Lississippi becomes a state.',
+        date: "1817",
+        status: "start",
+        year: 1817
+    },
+    {
+        index: 213,
         text: 'Adams-Onis Treaty.',
         date: "1819",
         status: "start",
         year: 1819
     },
     {
-        index: 210,
+        index: 214,
         text: 'McCulloch v. Maryland.',
         date: "1819",
         status: "start",
         year: 1819
     },
     {
-        index: 211,
+        index: 215,
         text: 'Dartmouth College v. Woodward.',
         date: "1819",
         status: "start",
         year: 1819
     },
     {
-        index: 212,
+        index: 216,
         text: 'Plummeting agricultural prices set off financial panic.',
         date: "1819",
         status: "start",
         year: 1819
     },
     {
-        index: 213,
+        index: 217,
         text: 'Missouri Compromise.',
         date: "1819-1821",
         status: "start",
         year: 1819
     },
     {
-        index: 214,
+        index: 218,
+        text: 'Alabama becomes a state.',
+        date: "1819",
+        status: "start",
+        year: 1819
+    },
+    {
+        index: 219,
         text: 'States reform education.',
         date: "1820s",
         status: "start",
         year: 1820
     },
     {
-        index: 215,
+        index: 220,
         text: 'Women become schoolteachers.',
         date: "1820s",
         status: "start",
         year: 1820
     },
     {
-        index: 216,
+        index: 221,
         text: 'New England women take textile jobs.',
         date: "1820s",
         status: "start",
         year: 1820
     },
     {
-        index: 217,
-        text: 'Rise of Benevolent Empire suprs conservative social reforms.',
+        index: 222,
+        text: 'Rise of Benevolent Empire spurs conservative social reforms.',
         date: "1820s",
         status: "start",
         year: 1820
     },
     {
-        index: 218,
+        index: 223,
+        text: 'Free black population increases in North and South.',
+        date: "1820s",
+        status: "start",
+        year: 1820
+    },
+    {
+        index: 224,
+        text: 'Entrepreneurial planters in Cootn South turn to gang labor.',
+        date: "1820s",
+        status: "start",
+        year: 1820
+    },
+    {
+        index: 225,
+        text: 'Southern Methodists and Baptists become socially conservative.',
+        date: "1820s",
+        status: "start",
+        year: 1820
+    },
+    {
+        index: 226,
+        text: 'Amrican Americans increasingly adpot Christian beliefs.',
+        date: "1820s",
+        status: "start",
+        year: 1820
+    },
+    {
+        index: 227,
         text: 'Urban population surges in Northeast and Midweast; shoe entrepreneurs adopt division of labor.',
         date: "1820-1840",
         status: "start",
         year: 1820
     },
     {
-        index: 219,
+        index: 228,
         text: 'Giibons v. Ogden promotes interstate trade.',
         date: "1824",
         status: "start",
         year: 1824
     },
     {
-        index: 220,
+        index: 229,
         text: 'House of Representatives selects John Quincy Adams as president.',
         date: "1825",
         status: "start",
         year: 1825
     },
     {
-        index: 221,
+        index: 230,
         text: 'Adams endorses Henry Clay\'s American System.',
         date: "1825",
         status: "start",
         year: 1825
     },
     {
-        index: 222,
+        index: 231,
+        text: 'Lyceum movement begins.',
+        date: "1826",
+        status: "start",
+        year: 1826
+    },
+    {
+        index: 232,
         text: 'Working Men\'s Parties wins support.',
         date: "1828",
         status: "start",
         year: 1828
     },
     {
-        index: 223,
+        index: 233,
         text: 'Tariff of Abominations raises duties.',
         date: "1828",
         status: "start",
         year: 1828
     },
     {
-        index: 224,
+        index: 234,
         text: 'Andrew Jackson elected president.',
         date: "1828",
         status: "start",
         year: 1828
     },
     {
-        index: 225,
+        index: 235,
         text: 'John C. Calhoun\'s South Carolina Exopsition and Protest.',
-        date: "1824",
+        date: "1828",
         status: "start",
-        year: 1824
+        year: 1828
     },
     {
-        index: 226,
+        index: 236,
+        text: 'David Walker\'s Appeal ... to the Colored Citizens of the World.',
+        date: "1828",
+        status: "start",
+        year: 1828
+    },
+    {
+        index: 237,
         text: 'Jackson vetos National Road bill.',
         date: "1830",
         status: "start",
         year: 1830
     },
     {
-        index: 227,
+        index: 238,
         text: 'Congress enacts Jackson\'s Indian Removal Act.',
         date: "1830",
         status: "start",
         year: 1830
     },
     {
-        index: 228,
+        index: 239,
+        text: 'Joseph Smith publishes The Book of Mormon.',
+        date: "1830",
+        status: "start",
+        year: 1830
+    },
+    {
+        index: 240,
         text: 'Emergence of western commercial cities.',
         date: "1830s",
         status: "start",
         year: 1830
     },
     {
-        index: 229,
+        index: 241,
         text: 'Labor movement gains strength.',
         date: "1830s",
         status: "start",
         year: 1830
     },
     {
-        index: 230,
+        index: 242,
         text: 'Middle-class culture emerges.',
         date: "1830s",
         status: "start",
         year: 1830
     },
     {
-        index: 231,
+        index: 243,
         text: 'Growth of temperance movement.',
         date: "1830s",
         status: "start",
         year: 1830
     },
     {
-        index: 232,
+        index: 244,
         text: 'Charles G. Finney begins Rochester revivals.',
         date: "1830",
         status: "start",
         year: 1830
     },
     {
-        index: 233,
+        index: 245,
+        text: 'Emergence of minstrelsy shows.',
+        date: "1830s",
+        status: "start",
+        year: 1830
+    },
+    {
+        index: 246,
+        text: 'Gentry in the Old South adopt paternalistic ideology and argue that slavery is a "positive good".',
+        date: "1830s",
+        status: "start",
+        year: 1830
+    },
+    {
+        index: 246,
+        text: 'Boom in cotton production.',
+        date: "1830s",
+        status: "start",
+        year: 1830
+    },
+    {
+        index: 247,
+        text: 'Precentage of slave-owning white families falls.',
+        date: "1830s",
+        status: "start",
+        year: 1830
+    },
+    {
+        index: 248,
+        text: 'Yeomen farm families retreat to hill country.',
+        date: "1830s",
+        status: "start",
+        year: 1830
+    },
+    {
+        index: 249,
+        text: 'Lawyers become influential in southern politics.',
+        date: "1830s",
+        status: "start",
+        year: 1830
+    },
+    {
+        index: 250,
         text: 'Cherokee Nation v. Georgia denies Indians\' independence, but Worcester v. Georgia upholds their political.',
         date: "1831",
         status: "start",
         year: 1831
     },
     {
-        index: 234,
+        index: 251,
+        text: 'William Lloyd Garrison founds The Liberator.',
+        date: "1831",
+        status: "start",
+        year: 1831
+    },
+    {
+        index: 252,
+        text: 'Nat Turner\'s uprising in Virginia.',
+        date: "1831",
+        status: "start",
+        year: 1831
+    },
+    {
+        index: 253,
         text: 'Massacre of 850 Sauk and Fox warriors and Bad Axe.',
         date: "1832",
         status: "start",
         year: 1832
     },
     {
-        index: 235,
+        index: 254,
         text: 'Jackson vetos renewal of Second Bank.',
         date: "1832",
         status: "start",
         year: 1832
     },
     {
-        index: 236,
+        index: 255,
         text: 'South Carolina adopts Ordiance of Nullification.',
         date: "1832",
         status: "start",
         year: 1832
     },
     {
-        index: 237,
+        index: 256,
+        text: 'Raplh Waldo Emerson turns to transcendentalism.',
+        date: "1832",
+        status: "start",
+        year: 1832
+    },
+    {
+        index: 257,
         text: 'Congress enacts compromise tariff.',
         date: "1833",
         status: "start",
         year: 1833
     },
     {
-        index: 238,
+        index: 258,
+        text: 'Garrison organizes American Anti-Slavery Society.',
+        date: "1833",
+        status: "start",
+        year: 1833
+    },
+    {
+        index: 259,
         text: 'Whig Party formed by Clay, Calhoun, and Daniel Webster.',
         date: "1834",
         status: "start",
         year: 1834
     },
     {
-        index: 239,
+        index: 260,
+        text: 'New York activists create Female Moral Reform Society.',
+        date: "1834",
+        status: "start",
+        year: 1834
+    },
+    {
+        index: 261,
         text: 'Roger Taney named Supreme Court chief justice.',
         date: "1835",
         status: "start",
         year: 1835
     },
     {
-        index: 240,
+        index: 262,
+        text: 'Abolitionists launch great postal campaign, sparking series of antiabolitionist riots.',
+        date: "1835",
+        status: "start",
+        year: 1835
+    },
+    {
+        index: 263,
         text: 'Martin Van Buren elected president.',
         date: "1836",
         status: "start",
         year: 1836
     },
     {
-        index: 241,
+        index: 264,
+        text: 'House of Representatives adopts gag rule.',
+        date: "1836",
+        status: "start",
+        year: 1836
+    },
+    {
+        index: 265,
         text: 'Charles River Bridge case weakens chartered monopolies.',
         date: "1837",
         status: "start",
         year: 1837
     },
     {
-        index: 242,
-        text: 'Panic of 18__ derails economy and labor movement.',
+        index: 266,
+        text: 'Panic of 1837 derails economy and labor movement.',
         date: "1837",
         status: "start",
         year: 1837
     },
     {
-        index: 243,
+        index: 267,
+        text: 'Grimke sisters defend public roles for women.',
+        date: "1837",
+        status: "start",
+        year: 1837
+    },
+    {
+        index: 268,
         text: 'Many Cherokees die in Trail of Tears march to Indian Territory.',
         date: "1838",
         status: "start",
         year: 1838
     },
     {
-        index: 244,
+        index: 269,
         text: 'Defaults on bonds by stat governments spark international financial crisis and dpression.',
         date: "1839-1843",
         status: "start",
         year: 1839
     },
     {
-        index: 245,
+        index: 270,
         text: 'Whigs win "log cabin campaign".',
         date: "1840",
         status: "start",
         year: 1840
     },
     {
-        index: 246,
+        index: 271,
+        text: 'Liberty Party runs James G. Birney for president.',
+        date: "1840",
+        status: "start",
+        year: 1840
+    },
+    {
+        index: 272,
         text: 'Irish and German immigration sparks ethnic riots.',
         date: "1840s",
         status: "start",
         year: 1840
     },
     {
-        index: 247,
+        index: 273,
         text: 'Maturation of machine-tool industry.',
         date: "1840s",
         status: "start",
         year: 1840
     },
     {
-        index: 248,
+        index: 274,
+        text: 'Fourierist communities arise in Midwest.',
+        date: "1840s",
+        status: "start",
+        year: 1840
+    },
+    {
+        index: 275,
+        text: 'Southern Whigs advocate economic diversification.',
+        date: "1840s",
+        status: "start",
+        year: 1840
+    },
+    {
+        index: 276,
+        text: 'Gradual emancipation completed in the North.',
+        date: "1840s",
+        status: "start",
+        year: 1840
+    },
+    {
+        index: 277,
         text: 'John Tyler succeeds William Henry Harrison as president.',
         date: "1842",
         status: "start",
         year: 1842
     },
     {
-        index: 249,
+        index: 278,
+        text: 'Dorothea Dix promotes hospitals for the mentally ill.',
+        date: "1841",
+        status: "start",
+        year: 1841
+    },
+    {
+        index: 279,
         text: 'Commonwealth v. Hunt legitimizes trade unions.',
         date: "1842",
         status: "start",
         year: 1842
     },
     {
-        index: 250,
+        index: 280,
+        text: 'Margraret Fuller publishes Woman in the Nineteeth Century.',
+        date: "1844",
+        status: "start",
+        year: 1844
+    },
+    {
+        index: 281,
+        text: 'James Polk elected president.',
+        date: "1844",
+        status: "start",
+        year: 1844
+    },
+    {
+        index: 282,
+        text: 'Henry David Thoreau goes to Walden Pond.',
+        date: "1845",
+        status: "start",
+        year: 1845
+    },
+    {
+        index: 283,
+        text: 'Texas admitted into the Union.',
+        date: "1845",
+        status: "start",
+        year: 1845
+    },
+    {
+        index: 284,
+        text: 'Brigham Young leads Mormons to Salt Lake.',
+        date: "1846",
+        status: "start",
+        year: 1846
+    },
+    {
+        index: 285,
+        text: 'United States declares war on Mexico.',
+        date: "1846",
+        status: "start",
+        year: 1846
+    },
+    {
+        index: 286,
+        text: 'Treaty with Britian divides Oregon Country.',
+        date: "1846",
+        status: "start",
+        year: 1846
+    },
+    {
+        index: 287,
+        text: 'Wilmot Proviso approved by House but not by Senate.',
+        date: "1846",
+        status: "start",
+        year: 1846
+    },
+    {
+        index: 288,
+        text: 'American troops capture Mexico City.',
+        date: "1847",
+        status: "start",
+        year: 1847
+    },
+    {
+        index: 289,
+        text: 'Seneca Falls Convention proposes women\'s equality.',
+        date: "1848",
+        status: "start",
+        year: 1848
+    },
+    {
+        index: 290,
+        text: 'Gold found in California.',
+        date: "1848",
+        status: "start",
+        year: 1848
+    },
+    {
+        index: 291,
+        text: 'Treaty of Guadalupe Hidalgo transfers Mexican lans to United States.',
+        date: "1848",
+        status: "start",
+        year: 1848
+    },
+    {
+        index: 292,
+        text: 'Free-Soil party forms.',
+        date: "1848",
+        status: "start",
+        year: 1848
+    },
+    {
+        index: 293,
         text: 'Expansion of railroads in Northeast and Midwest.',
         date: "1850s",
         status: "start",
         year: 1850
+    },
+    {
+        index: 294,
+        text: 'Cotton prices and production increase.',
+        date: "1850s",
+        status: "start",
+        year: 1850
+    },
+    {
+        index: 295,
+        text: 'Slave prices rise.',
+        date: "1850s",
+        status: "start",
+        year: 1850
+    },
+    {
+        index: 296,
+        text: 'Southern states subsidize railroads, but industry remains limited.',
+        date: "1850s",
+        status: "start",
+        year: 1850
+    },
+    {
+        index: 297,
+        text: 'Nathaniel Hawthorne\'s The Scarlet Letter.',
+        date: "1850",
+        status: "start",
+        year: 1850
+    }, 
+    {
+        index: 298,
+        text: 'President Taylor dies.',
+        date: "1850",
+        status: "start",
+        year: 1850
+    }, 
+    {
+        index: 299,
+        text: 'Millard Fillmore assumes presidency.',
+        date: "1850",
+        status: "start",
+        year: 1850
+    }, 
+    {
+        index: 300,
+        text: 'Compromise of 1850 preserves the Union.',
+        date: "1850",
+        status: "start",
+        year: 1850
+    }, 
+    {
+        index: 301,
+        text: 'Northern abolitionists rejct Fugative Slave Act.',
+        date: "1850",
+        status: "start",
+        year: 1850
+    }, 
+    {
+        index: 302,
+        text: 'Herman Melville publishes Moby Dick.',
+        date: "1851",
+        status: "start",
+        year: 1851
+    }, 
+    {
+        index: 303,
+        text: 'American(Know-Nothing) party forms.',
+        date: "1851",
+        status: "start",
+        year: 1851
+    },   
+    {
+        index: 304,
+        text: 'Harriet Beecher Stowe writes Uncle Tom\'s Cabin.',
+        date: "1852",
+        status: "start",
+        year: 1852
+    },   
+    {
+        index: 305,
+        text: 'Ostend Manifesto urges seizure of Cuba.',
+        date: "1854",
+        status: "start",
+        year: 1854
+    },    
+    {
+        index: 305,
+        text: 'Kansas-Nebraska Act test policy of popular soverneignty.',
+        date: "1854",
+        status: "start",
+        year: 1854
+    },    
+    {
+        index: 306,
+        text: 'Republican Party forms.',
+        date: "1854",
+        status: "start",
+        year: 1854
+    },   
+    {
+        index: 306,
+        text: 'Dr. Sanger surveys sex trade in New York City.',
+        date: "1855",
+        status: "start",
+        year: 1855
     },  
     {
-        index: 251,
+        index: 307,
+        text: 'Walt Whitman\'s Leaves of Grass.',
+        date: "1855",
+        status: "start",
+        year: 1855
+    },
+    {
+        index: 308,
+        text: 'Turmoil in Kansas undermines popular sovereignty.',
+        date: "1856",
+        status: "start",
+        year: 1856
+    },
+    {
+        index: 309,
+        text: 'James Buchanan elected president.',
+        date: "1856",
+        status: "start",
+        year: 1856
+    },
+    {
+        index: 310,
         text: 'Overproduction and speculation trigger a business recession.',
         date: "1857",
         status: "start",
         year: 1857
     },
-
-    //Chapter 13
     {
-        index: 346,
+        index: 311,
+        text: 'Dred Scott v. Sandford allows slavery in U.S. territories.',
+        date: "1857",
+        status: "start",
+        year: 1857
+    },
+    {
+        index: 312,
+        text: '"Morman War" over polygamy.',
+        date: "1858",
+        status: "start",
+        year: 1858
+    },
+    {
+        index: 313,
+        text: 'President Buchanan urges Congress to admit Kansas under the proslavery Lecompton constitution and seeks to buy and annex Cuba as a slave state.',
+        date: "1858",
+        status: "start",
+        year: 1858
+    },
+    {
+        index: 314,
+        text: 'Abraham Lincoln debates Stephen Douglas for U.S. Senate seat.',
+        date: "1858",
+        status: "start",
+        year: 1858
+    },
+    {
+        index: 315,
+        text: 'John Brown raids federal arsenal at Harpers Ferry',
+        date: "1859",
+        status: "start",
+        year: 1859
+    },
+    {
+        index: 316,
         text: 'Abraham Lincoln elected president.',
         date: "November 6th 1860",
         status: "start",
         year: 1860
     },
     {
-        index: 347,
+        index: 317,
         text: 'South Carolina secedes.',
         date: "December 20th 1860",
         status: "start",
         year: 1860
     },
     {
-        index: 348,
+        index: 318,
         text: 'Lincoln inaugurated.',
         date: "March 4th 1861",
         status: "start",
         year: 1861
     },
     {
-        index: 349,
+        index: 319,
         text: 'Confederates fire on Fort Sumter.',
         date: "April 12th 1861",
         status: "start",
         year: 1861
     },
     {
-        index: 350,
+        index: 320,
         text: 'Virginia leaves the Union.',
         date: "April 17th 1861",
         status: "start",
         year: 1861
     },
     {
-        index: 351,
+        index: 321,
         text: 'General Butler declares refugee slaves "contraband of war".',
         date: "May 1861",
         status: "start",
         year: 1861
     },
     {
-        index: 352,
+        index: 322,
         text: 'Confederates win Battle of Bull Run.',
         date: "July 21st 1861",
         status: "start",
         year: 1861
     },
     {
-        index: 353,
+        index: 323,
         text: 'First Confiscation Act.',
         date: "August 1861",
         status: "start",
         year: 1861
     },
     {
-        index: 354,
+        index: 324,
         text: 'Legal Tender Act authorizes greenbacks',
         date: "February 1862",
         status: "start",
         year: 1862
     },
     {
-        index: 355,
+        index: 325,
         text: 'Union triumphs at Shiloh.',
         date: "April 6th 1862",
         status: "start",
         year: 1862
     },
     {
-        index: 356,
+        index: 326,
         text: 'Confederacy introduces draft.',
         date: "April 1862",
         status: "start",
         year: 1862
     },
     {
-        index: 357,
+        index: 327,
         text: 'Congress passes Homestead Act and Transcontinental Railroad Act.',
         date: "May, July 1862",
         status: "start",
         year: 1862
     },
     {
-        index: 358,
+        index: 328,
         text: 'Union halts Confederates at Antietam.',
         date: "September 17th 1862",
         status: "start",
         year: 1862
     },
     {
-        index: 359,
+        index: 329,
         text: 'Perliminary emancipation proclamation.',
         date: "September 22nd 1862",
         status: "start",
         year: 1862
     },
     {
-        index: 360,
-        text: 'Licoln signs Emancipation Proclamation.',
+        index: 330,
+        text: 'Lincoln signs Emancipation Proclamation.',
         date: "January 1st 1863",
         status: "start",
         year: 1863
     },
     {
-        index: 361,
+        index: 331,
         text: 'Union initates draft.',
         date: "March 1863",
         status: "start",
         year: 1863
     },
     {
-        index: 362,
+        index: 332,
         text: 'Union wins battles at Getterysburg and Vicksburg.',
         date: "July 1-4 1863",
         status: "start",
         year: 1863
     },
     {
-        index: 363,
+        index: 333,
         text: 'Draft riots in New York.',
         date: "July 1863",
         status: "start",
         year: 1863
     },
     {
-        index: 364,
+        index: 334,
         text: 'Ulysses S. Grant nammed Union Commander.',
         date: "March 1864",
         status: "start",
         year: 1864
     },
     {
-        index: 365,
+        index: 335,
         text: 'Grant advances on Richmond.',
         date: "May 1864",
         status: "start",
         year: 1864
     },
     {
-        index: 366,
+        index: 336,
         text: 'William Tecumseh Sherman takes Atlanta.',
         date: "Spetember 2nd 1864",
         status: "start",
         year: 1864
     },
     {
-        index: 367,
+        index: 337,
         text: 'Lincoln Reelected.',
         date: "November 8th 1864",
         status: "start",
         year: 1864
     },
     {
-        index: 368,
+        index: 338,
         text: 'Sherman marches through Georgia.',
         date: "November and December 1864",
         status: "start",
         year: 1864
     },  
     {
-        index: 369,
+        index: 339,
         text: 'Wade-Davis Bill passed by Congress but killed by Lincoln\'s pocket veto.',
         date: "1864",
         status: "start",
         year: 1864
     },
     {
-        index: 370,
+        index: 340,
         text: 'Congress approves Thirteenth Amendment.',
         date: "January 31st 1865",
         status: "start",
         year: 1865
     },
     {
-        index: 371,
+        index: 341,
         text: 'Robert E. Lee surrenders.',
         date: "April 9th 1865",
         status: "start",
         year: 1865
     },
     {
-        index: 372,
+        index: 342,
         text: 'Lincoln assassinated.',
         date: "Apirl 14th 1865",
         status: "start",
         year: 1865
     },
     {
-        index: 373,
+        index: 343,
         text: 'Thirteenth Amendment ratified.',
         date: "December 6th 1865",
         status: "start",
         year: 1865
     },
-    
-    //Chapter 15
     {
-        index: 374,
+        index: 344,
         text: 'Freedmen\'s Bureau established.',
         date: "1865",
         status: "start",
         year: 1865
     },
     {
-        index: 375,
+        index: 345,
         text: 'Johnson implments restoation plan.',
         date: "1865",
         status: "start",
