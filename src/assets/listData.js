@@ -1380,7 +1380,7 @@ export const listData = [
     },
     {
         index: 196,
-        text: 'Marbury v. Madison asserts judicial review.',
+        text: 'Marbury v. Madison.',
         date: "1803",
         status: "start",
         year: 1803
@@ -1604,7 +1604,7 @@ export const listData = [
     },
     {
         index: 228,
-        text: 'Giibons v. Ogden promotes interstate trade.',
+        text: 'Giibons v. Ogden.',
         date: "1824",
         status: "start",
         year: 1824
@@ -1968,7 +1968,7 @@ export const listData = [
     },
     {
         index: 279,
-        text: 'Commonwealth v. Hunt legitimizes trade unions.',
+        text: 'Commonwealth v. Hunt.',
         date: "1842",
         status: "start",
         year: 1842
@@ -2168,289 +2168,786 @@ export const listData = [
         date: "1854",
         status: "start",
         year: 1854
-    },   
+    },    
     {
-        index: 306,
+        index: 307,
+        text: 'United States "opens" Japan to trade.',
+        date: "1854",
+        status: "start",
+        year: 1854
+    },      
+    {
+        index: 308,
         text: 'Dr. Sanger surveys sex trade in New York City.',
         date: "1855",
         status: "start",
         year: 1855
     },  
     {
-        index: 307,
+        index: 309,
         text: 'Walt Whitman\'s Leaves of Grass.',
         date: "1855",
         status: "start",
         year: 1855
     },
     {
-        index: 308,
+        index: 310,
         text: 'Turmoil in Kansas undermines popular sovereignty.',
         date: "1856",
         status: "start",
         year: 1856
     },
     {
-        index: 309,
+        index: 311,
         text: 'James Buchanan elected president.',
         date: "1856",
         status: "start",
         year: 1856
     },
     {
-        index: 310,
+        index: 312,
         text: 'Overproduction and speculation trigger a business recession.',
         date: "1857",
         status: "start",
         year: 1857
     },
     {
-        index: 311,
-        text: 'Dred Scott v. Sandford allows slavery in U.S. territories.',
+        index: 313,
+        text: 'Dred Scott v. Sandford.',
         date: "1857",
         status: "start",
         year: 1857
     },
     {
-        index: 312,
+        index: 314,
         text: '"Morman War" over polygamy.',
         date: "1858",
         status: "start",
         year: 1858
     },
     {
-        index: 313,
+        index: 315,
         text: 'President Buchanan urges Congress to admit Kansas under the proslavery Lecompton constitution and seeks to buy and annex Cuba as a slave state.',
         date: "1858",
         status: "start",
         year: 1858
     },
     {
-        index: 314,
+        index: 316,
         text: 'Abraham Lincoln debates Stephen Douglas for U.S. Senate seat.',
         date: "1858",
         status: "start",
         year: 1858
     },
     {
-        index: 315,
+        index: 317,
         text: 'John Brown raids federal arsenal at Harpers Ferry',
         date: "1859",
         status: "start",
         year: 1859
     },
     {
-        index: 316,
+        index: 318,
+        text: 'Comstock silver lode discovered in Nevade',
+        date: "1859",
+        status: "start",
+        year: 1859
+    },
+    {
+        index: 319,
         text: 'Abraham Lincoln elected president.',
         date: "November 6th 1860",
         status: "start",
         year: 1860
     },
     {
-        index: 317,
+        index: 320,
         text: 'South Carolina secedes.',
         date: "December 20th 1860",
         status: "start",
         year: 1860
     },
     {
-        index: 318,
+        index: 321,
         text: 'Lincoln inaugurated.',
         date: "March 4th 1861",
         status: "start",
         year: 1861
     },
     {
-        index: 319,
+        index: 322,
         text: 'Confederates fire on Fort Sumter.',
         date: "April 12th 1861",
         status: "start",
         year: 1861
     },
     {
-        index: 320,
+        index: 323,
         text: 'Virginia leaves the Union.',
         date: "April 17th 1861",
         status: "start",
         year: 1861
     },
     {
-        index: 321,
+        index: 324,
         text: 'General Butler declares refugee slaves "contraband of war".',
         date: "May 1861",
         status: "start",
         year: 1861
     },
     {
-        index: 322,
+        index: 325,
         text: 'Confederates win Battle of Bull Run.',
         date: "July 21st 1861",
         status: "start",
         year: 1861
     },
     {
-        index: 323,
+        index: 326,
         text: 'First Confiscation Act.',
         date: "August 1861",
         status: "start",
         year: 1861
     },
     {
-        index: 324,
+        index: 327,
         text: 'Legal Tender Act authorizes greenbacks',
         date: "February 1862",
         status: "start",
         year: 1862
     },
     {
-        index: 325,
+        index: 328,
         text: 'Union triumphs at Shiloh.',
         date: "April 6th 1862",
         status: "start",
         year: 1862
     },
     {
-        index: 326,
+        index: 329,
         text: 'Confederacy introduces draft.',
         date: "April 1862",
         status: "start",
         year: 1862
     },
     {
-        index: 327,
+        index: 330,
         text: 'Congress passes Homestead Act and Transcontinental Railroad Act.',
         date: "May, July 1862",
         status: "start",
         year: 1862
     },
     {
-        index: 328,
+        index: 331,
         text: 'Union halts Confederates at Antietam.',
         date: "September 17th 1862",
         status: "start",
         year: 1862
     },
     {
-        index: 329,
+        index: 332,
         text: 'Perliminary emancipation proclamation.',
         date: "September 22nd 1862",
         status: "start",
         year: 1862
     },
     {
-        index: 330,
+        index: 333,
+        text: 'Homestead Act.',
+        date: "1862",
+        status: "start",
+        year: 1862
+    },
+    {
+        index: 334,
+        text: 'Dakota Sioux uprising in Minnesota.',
+        date: "862",
+        status: "start",
+        year: 1862
+    },
+    {
+        index: 335,
+        text: 'Morrill Act funds public state universities.',
+        date: "1862",
+        status: "start",
+        year: 1862
+    },
+    {
+        index: 336,
         text: 'Lincoln signs Emancipation Proclamation.',
         date: "January 1st 1863",
         status: "start",
         year: 1863
     },
     {
-        index: 331,
+        index: 337,
         text: 'Union initates draft.',
         date: "March 1863",
         status: "start",
         year: 1863
     },
     {
-        index: 332,
+        index: 338,
         text: 'Union wins battles at Getterysburg and Vicksburg.',
         date: "July 1-4 1863",
         status: "start",
         year: 1863
     },
     {
-        index: 333,
+        index: 339,
         text: 'Draft riots in New York.',
         date: "July 1863",
         status: "start",
         year: 1863
     },
     {
-        index: 334,
+        index: 340,
+        text: 'Cleveland, Ohio, becomes nation\'s petroleum refining center.',
+        date: "1863",
+        status: "start",
+        year: 1863
+    },
+    {
+        index: 341,
         text: 'Ulysses S. Grant nammed Union Commander.',
         date: "March 1864",
         status: "start",
         year: 1864
     },
     {
-        index: 335,
+        index: 342,
         text: 'Grant advances on Richmond.',
         date: "May 1864",
         status: "start",
         year: 1864
     },
     {
-        index: 336,
+        index: 343,
         text: 'William Tecumseh Sherman takes Atlanta.',
         date: "Spetember 2nd 1864",
         status: "start",
         year: 1864
     },
     {
-        index: 337,
+        index: 344,
         text: 'Lincoln Reelected.',
         date: "November 8th 1864",
         status: "start",
         year: 1864
     },
     {
-        index: 338,
+        index: 345,
         text: 'Sherman marches through Georgia.',
         date: "November and December 1864",
         status: "start",
         year: 1864
     },  
     {
-        index: 339,
+        index: 346,
         text: 'Wade-Davis Bill passed by Congress but killed by Lincoln\'s pocket veto.',
         date: "1864",
         status: "start",
         year: 1864
     },
     {
-        index: 340,
+        index: 347,
+        text: 'Sand Creek massacre of Cheyennes in Colorado.',
+        date: "1864",
+        status: "start",
+        year: 1864
+    },
+    {
+        index: 348,
+        text: 'Yosemite Valley reserved as public park.',
+        date: "1864",
+        status: "start",
+        year: 1864
+    },
+    {
+        index: 349,
         text: 'Congress approves Thirteenth Amendment.',
         date: "January 31st 1865",
         status: "start",
         year: 1865
     },
     {
-        index: 341,
+        index: 350,
         text: 'Robert E. Lee surrenders.',
         date: "April 9th 1865",
         status: "start",
         year: 1865
     },
     {
-        index: 342,
+        index: 351,
         text: 'Lincoln assassinated.',
         date: "Apirl 14th 1865",
         status: "start",
         year: 1865
     },
     {
-        index: 343,
+        index: 352,
         text: 'Thirteenth Amendment ratified.',
         date: "December 6th 1865",
         status: "start",
         year: 1865
     },
     {
-        index: 344,
+        index: 353,
         text: 'Freedmen\'s Bureau established.',
         date: "1865",
         status: "start",
         year: 1865
     },
     {
-        index: 345,
+        index: 354,
+        text: 'Johnson succeends Lincoln as president.',
+        date: "1865",
+        status: "start",
+        year: 1865
+    },
+    {
+        index: 355,
         text: 'Johnson implments restoation plan.',
         date: "1865",
         status: "start",
         year: 1865
     },
+    {
+        index: 356,
+        text: 'Ex-Confederate States pass Black Codes to limit freedpeople\'s rights.',
+        date: "1865",
+        status: "start",
+        year: 1865
+    },
+    {
+        index: 357,
+        text: 'Chicago\'s Union Stock Yard opens.',
+        date: "1865",
+        status: "start",
+        year: 1865
+    },
+    {
+        index: 358,
+        text: 'Long Drive of Texas longhorns begins.',
+        date: "1866",
+        status: "start",
+        year: 1866
+    },
+    {
+        index: 359,
+        text: 'Civil Rights Act passes over Johnson\'s veto.',
+        date: "1866",
+        status: "start",
+        year: 1866
+    },
+    {
+        index: 360,
+        text: 'Major Republican gains in congressional election.',
+        date: "1866",
+        status: "start",
+        year: 1866
+    },
+    {
+        index: 361,
+        text: 'Fetterman Massacre.',
+        date: "1866",
+        status: "start",
+        year: 1866
+    },
+    {
+        index: 362,
+        text: 'Reconstruction Act.',
+        date: "1867",
+        status: "start",
+        year: 1867
+    },
+    {
+        index: 362,
+        text: 'National Grange of the Patrons of Hubandry.',
+        date: "1867",
+        status: "start",
+        year: 1867
+    },
+    {
+        index: 363,
+        text: 'Impeachment of Andrew Johnson.',
+        date: "1868",
+        status: "start",
+        year: 1868
+    },
+    {
+        index: 364,
+        text: 'Fourteenth Amendment ratified.',
+        date: "1868",
+        status: "start",
+        year: 1868
+    },
+    {
+        index: 365,
+        text: 'Ulysses S. Grant elected president.',
+        date: "1868",
+        status: "start",
+        year: 1868
+    },
+    {
+        index: 366,
+        text: 'Burlingame Treaty with China.',
+        date: "1868",
+        status: "start",
+        year: 1868
+    },
+    {
+        index: 367,
+        text: 'Transcontinetal railroad colpleted.',
+        date: "1869",
+        status: "start",
+        year: 1869
+    },
+    {
+        index: 368,
+        text: 'Wyoming women\'s suffrage.',
+        date: "1869",
+        status: "start",
+        year: 1869
+    },
+    {
+        index: 368,
+        text: 'Knights of Labor founded.',
+        date: "1869",
+        status: "start",
+        year: 1869
+    },
+    {
+        index: 369,
+        text: 'Ku Klux Klan at peak of power.',
+        date: "1870",
+        status: "start",
+        year: 1870
+    },
+    {
+        index: 370,
+        text: 'Congress passes Enforcement Laws to suppress the Ku Klux Klan.',
+        date: "1870",
+        status: "start",
+        year: 1870
+    },
+    {
+        index: 371,
+        text: 'Fiftheenth Amendment ratified.',
+        date: "1870",
+        status: "start",
+        year: 1870
+    },
+    {
+        index: 372,
+        text: 'Uath women\'s suffrage.',
+        date: "1870",
+        status: "start",
+        year: 1870
+    },
+    {
+        index: 373,
+        text: 'Grant reelected; Credit Mobilier scandal emerges.',
+        date: "1872",
+        status: "start",
+        year: 1872
+    },
+    {
+        index: 374,
+        text: 'General Mining Act.',
+        date: "1872",
+        status: "start",
+        year: 1872
+    },
+    {
+        index: 375,
+        text: 'Yellowstone National Park created.',
+        date: "1872",
+        status: "start",
+        year: 1872
+    },
+    {
+        index: 376,
+        text: 'Panic of 1873 ushers in severe economic depression.',
+        date: "1873",
+        status: "start",
+        year: 1873
+    },
+    {
+        index: 377,
+        text: 'United States begins move to gold standard.',
+        date: "1873",
+        status: "start",
+        year: 1873
+    },
+    {
+        index: 378,
+        text: 'Sweeping Democratic gains in congressional elections.',
+        date: "1874",
+        status: "start",
+        year: 1874
+    },
+    {
+        index: 379,
+        text: 'Whiskey Ring and other Scandals undermine Grant administration.',
+        date: "1875",
+        status: "start",
+        year: 1875
+    },
+    {
+        index: 380,
+        text: 'Minor v. Happersett.',
+        date: "1875",
+        status: "start",
+        year: 1875
+    },
+    {
+        index: 381,
+        text: 'John Wanamaker opens nation\'s first department store in Philadelphia.',
+        date: "1875",
+        status: "start",
+        year: 1875
+    },
+    {
+        index: 382,
+        text: '𝘜.𝘚. 𝘷. 𝘊𝘶𝘳𝘪𝘬𝘴𝘩𝘢𝘯𝘬.',
+        date: "1876",
+        status: "start",
+        year: 1876
+    },
+    {
+        index: 383,
+        text: 'Battle of Little Big Horn.',
+        date: "1876",
+        status: "start",
+        year: 1876
+    },
+    {
+        index: 384,
+        text: 'Alexander Graham Bell invents the telephone.',
+        date: "1876",
+        status: "start",
+        year: 1876
+    },
+    {
+        index: 385,
+        text: 'Rutherfor B. Hayes becomes president.',
+        date: "1877",
+        status: "start",
+        year: 1877
+    },
+    {
+        index: 386,
+        text: 'Reconstruction officially ends.',
+        date: "1877",
+        status: "start",
+        year: 1877
+    },
+    {
+        index: 387,
+        text: 'Nez Perces forcibly removed from ancestral homelands in Northwest.',
+        date: "1877",
+        status: "start",
+        year: 1877
+    },
+    {
+        index: 388,
+        text: '𝘔𝘶𝘯𝘯 𝘷. 𝘐𝘭𝘭𝘪𝘯𝘰𝘪𝘴.',
+        date: "1877",
+        status: "start",
+        year: 1877
+    },
+    {
+        index: 389,
+        text: 'San Francisco mob attacks Chinatown.',
+        date: "1877",
+        status: "start",
+        year: 1877
+    },
+    {
+        index: 390,
+        text: 'Great Railroad Strike.',
+        date: "1877",
+        status: "start",
+        year: 1877
+    },
+    {
+        index: 391,
+        text: 'Greenback-Labor Party elects 15 Congressmen.',
+        date: "1878",
+        status: "start",
+        year: 1878
+    },
+    {
+        index: 392,
+        text: 'Exoduster migration to Kansas.',
+        date: "1879",
+        status: "start",
+        year: 1879
+    },
+    {
+        index: 393,
+        text: 'John Welsley Powell presents Report on the Lands of the Arid Region of the United States.',
+        date: "1879",
+        status: "start",
+        year: 1879
+    },
+    {
+        index: 394,
+        text: 'Henry George publishes Progress and Poverty.',
+        date: "1879",
+        status: "start",
+        year: 1879
+    },
+    {
+        index: 395,
+        text: 'Rise of the Ghost Dance movement.',
+        date: "1880s",
+        status: "start",
+        year: 1880
+    },
+    {
+        index: 396,
+        text: 'John D. Rockefeller creates Standard Oil Trust.',
+        date: "1882",
+        status: "start",
+        year: 1882
+    },
+    {
+        index: 397,
+        text: 'Congress pass Chinese Exclusion Act.',
+        date: "1882",
+        status: "start",
+        year: 1882
+    },
+    {
+        index: 398,
+        text: 'Knights of Labor at peak of membership.',
+        date: "1884",
+        status: "start",
+        year: 1884
+    },
+    {
+        index: 399,
+        text: 'Sitting Bull tours with Buffalo Bill\'s Wild West show.',
+        date: "1885",
+        status: "start",
+        year: 1885
+    },
+    {
+        index: 400,
+        text: 'Rocks Springs massacre of Chinese miners.',
+        date: "1885",
+        status: "start",
+        year: 1885
+    },
+    {
+        index: 401,
+        text: 'Dry Cycle begins on the plains.',
+        date: "1886",
+        status: "start",
+        year: 1886
+    },
+    {
+        index: 402,
+        text: 'Chiricahua Apache leader Geronimo surrenders.',
+        date: "1886",
+        status: "start",
+        year: 1886
+    },
+    {
+        index: 403,
+        text: 'Haymarket Square violence.',
+        date: "1886",
+        status: "start",
+        year: 1886
+    },
+    {
+        index: 404,
+        text: 'American Federation of Labor (AFL) founded.',
+        date: "1886",
+        status: "start",
+        year: 1886
+    },
+    {
+        index: 405,
+        text: 'Dawes Severalty Act.',
+        date: "1887",
+        status: "start",
+        year: 1887
+    },
+    {
+        index: 406,
+        text: 'Hatch Act.',
+        date: "1887",
+        status: "start",
+        year: 1887
+    },
+    {
+        index: 407,
+        text: 'Interstate Commerce Act.',
+        date: "1887",
+        status: "start",
+        year: 1887
+    },
+    {
+        index: 408,
+        text: 'New Jersey passes law enabling trusts to operate in the state.',
+        date: "1889",
+        status: "start",
+        year: 1889
+    },
+    {
+        index: 409,
+        text: 'Massacre of Sioux Ghost Dancers at Wounded Kneem South Dakota.',
+        date: "1890",
+        status: "start",
+        year: 1890
+    },
+    {
+        index: 410,
+        text: 'Homestead lockout.',
+        date: "1892",
+        status: "start",
+        year: 1892
+    },
+    {
+        index: 411,
+        text: 'Severe depression hits; causes mass unemployment and wave of corporate mergers.',
+        date: "1893",
+        status: "start",
+        year: 1893
+    },
+    {
+        index: 412,
+        text: 'America\'s one hundred largest companies control one-third of national productive capacity.',
+        date: "1900",
+        status: "start",
+        year: 1900
+    },
+    {
+        index: 413,
+        text: 'J.P. Morgan creates U.S. Steel, America\'s first billion-dollar corporation.',
+        date: "1901",
+        status: "start",
+        year: 1901
+    },
+    {
+        index: 414,
+        text: 'Marianna, Pennsylvania, mine disaster.',
+        date: "1907",
+        status: "start",
+        year: 1907
+    },
+    {
+        index: 415,
+        text: 'Walter Dill publishes The Psychology of Advertising.',
+        date: "1890",
+        status: "start",
+        year: 1890
+    },
     
-    //Chapter 27
+    //Chapter 22
     {
         index: 519,
         text: 'New Ku Klux Klan founded.',

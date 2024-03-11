@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/apush-game/static/css/main.bda3cf5a.css",
-    "main.js": "/apush-game/static/js/main.4fb42958.js",
+    "main.css": "/apush-game/static/css/main.0c45e7a5.css",
+    "main.js": "/apush-game/static/js/main.21c01df4.js",
     "index.html": "/apush-game/index.html",
-    "main.bda3cf5a.css.map": "/apush-game/static/css/main.bda3cf5a.css.map",
-    "main.4fb42958.js.map": "/apush-game/static/js/main.4fb42958.js.map"
+    "main.0c45e7a5.css.map": "/apush-game/static/css/main.0c45e7a5.css.map",
+    "main.21c01df4.js.map": "/apush-game/static/js/main.21c01df4.js.map"
   },
   "entrypoints": [
-    "static/css/main.bda3cf5a.css",
-    "static/js/main.4fb42958.js"
+    "static/css/main.0c45e7a5.css",
+    "static/js/main.21c01df4.js"
   ]
 }

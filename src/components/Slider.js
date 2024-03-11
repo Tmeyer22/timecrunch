@@ -7,7 +7,7 @@ function valuetext(value) {
 }
 
 export default function DateSlider(props){
-    const [value, setValue] = React.useState([1776, 1952]);
+    const [value, setValue] = React.useState([1600, 1900]);
     const minDistance = 25
 
     const handleChange = (event, newValue, activeThumb) => {
