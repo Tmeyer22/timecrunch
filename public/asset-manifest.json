@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/apush-game/static/css/main.877f88c1.css",
-    "main.js": "/apush-game/static/js/main.1a522d3c.js",
-    "static/js/592.7f72a991.chunk.js": "/apush-game/static/js/592.7f72a991.chunk.js",
-    "index.html": "/apush-game/index.html",
-    "main.877f88c1.css.map": "/apush-game/static/css/main.877f88c1.css.map",
-    "main.1a522d3c.js.map": "/apush-game/static/js/main.1a522d3c.js.map",
-    "592.7f72a991.chunk.js.map": "/apush-game/static/js/592.7f72a991.chunk.js.map"
+    "main.css": "/timecrunch/static/css/main.877f88c1.css",
+    "main.js": "/timecrunch/static/js/main.1a522d3c.js",
+    "static/js/592.7f72a991.chunk.js": "/timecrunch/static/js/592.7f72a991.chunk.js",
+    "index.html": "/timecrunch/index.html",
+    "main.877f88c1.css.map": "/timecrunch/static/css/main.877f88c1.css.map",
+    "main.1a522d3c.js.map": "/timecrunch/static/js/main.1a522d3c.js.map",
+    "592.7f72a991.chunk.js.map": "/timecrunch/static/js/592.7f72a991.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.877f88c1.css",
