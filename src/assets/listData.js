@@ -2235,7 +2235,7 @@ export const listData = [
     },
     {
         index: 3150,
-        text: 'President Buchanan urges Congress to admit Kansas under the proslavery Lecompton constitution and seeks to buy and annex Cuba as a slave state.',
+        text: 'President Buchanan urges Congress to admit Kansas under the proslavery Lecompton constitution.',
         date: "1858",
         status: "start",
         year: 1858
@@ -2376,7 +2376,7 @@ export const listData = [
     {
         index: 3350,
         text: 'Dakota Sioux uprising in Minnesota.',
-        date: "862",
+        date: "1862",
         status: "start",
         year: 1862
     },
@@ -3131,7 +3131,7 @@ export const listData = [
     },
     {
         index: 4430,
-        text: 'Chicago World\'s Columbian Exosition.',
+        text: 'Chicago World\'s Columbian Exposition.',
         date: "1893",
         status: "start",
         year: 1893

@@ -1,7 +1,7 @@
 import Card from './Card';
+import Header from './HeaderBox';
 import {Reorder} from 'framer-motion'
 import { useState } from 'react';
-import Banner from './Banner';
 import './game.css'
 
 //The card list and game logic, kept here to use state
@@ -84,23 +84,20 @@ export default  function GamePage(props) {
             let listOut = [card, ...items]
             setItems(listOut)
         }else{
+            props.trackGame(rights)
             setFinished(true)
         }
     }
 
     return (
         <div className='column'>
-            <div className='header'>
-                    {/*The header, switch between guess display and score box when the game ends*/}
-                    {finished? 
-                        <div className='finished-box'>
-                            <p>Great! You got {rights.filter((x) => x === "correct").length} of 8 correct.</p>
-                            <button className='back-button' onClick={props.restart}> Play Again? </button>
-                        </div>
-                        :
-                        <Banner number={(count > 7) ? count : count + 1} guess={rights}/>
-                    }
-            </div>
+            <Header 
+                finished={finished}
+                rights={rights}
+                count={count}
+                restart={props.restart}
+                playedGames={props.playedGames}
+            />
             {/*List of all the cards, using framer-motions reorder for smooth moves*/}
             <Reorder.Group axis='y' values={items} onReorder={setItems}  className='list'>
                 {items.map((item) => (

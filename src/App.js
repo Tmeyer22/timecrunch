@@ -7,13 +7,23 @@ import HomePage from "./pages/home";
 export default  function App() {
     const [started, Start] = useState(false)
     const [yearRange, setRange] = useState([1776, 1945])
-    const [gamesPlayed ,setPlayed] = useState(0)
+    const [games] = useState([])
 
     //console.log(gamesPlayed)
-    //Toggle between hoem and game page
+    //Toggle between home and game page
+
     function handleClick(){
-        setPlayed(gamesPlayed+1)
         Start(!started)
+    }
+   
+    console.log(games)
+    
+    function setGames(lastGame){
+        lastGame.pop()
+        games.unshift(lastGame)
+        if (games.length > 5){
+            games.pop()
+        }
     }
     //Pass year range to game page
     function passSlider(value){
@@ -25,6 +35,8 @@ export default  function App() {
                 <Game
                 restart={handleClick}
                 range={yearRange}
+                setGames={setGames}
+                playedGames={games}
                 /> 
             : 
                 <HomePage
