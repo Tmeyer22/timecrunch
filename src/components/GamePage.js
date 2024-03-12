@@ -4,32 +4,31 @@ import { useState } from 'react';
 import Banner from './Banner';
 import './game.css'
 
-
+//The card list and game logic, kept here to use state
 export default  function GamePage(props) {
-    const [items, setItems] = useState(props.startList)
-    const [count, setCount] = useState(0)
-    const [rights] = useState(["active", "", "", "", "", "", "", ""])
-    const [finished, setFinished] = useState(false)
+    const [items, setItems] = useState(props.startList)                 //List of events from createList function through App
+    const [count, setCount] = useState(0)                               //Track which event you're on
+    const [rights] = useState(["active", "", "", "", "", "", "", ""])   //Track guess, uses string for css stuff in Banner
+    const [finished, setFinished] = useState(false)                     //Track done
 
-    // console.log("items", items, "totallist", props.totalList)
-
+    //Update the guess array with each new guess, bumps "active" along to show where the player is with the blue highlighted circle
     function updateRights(bol){
         rights[count] = bol
         rights[count + 1] = "active"
         setCount(count+1)
     }
 
-    function newMove(me){
+    //Check if the placed card is corrent and move it to the right place if it's not
+    function checkMove(me){
         let length = items.length
         let index = items.indexOf(me)
 
-        //Check above and move
+        //Check if there is a card above it
         if(index < length-1){
-            // console.log("Check above")
             let top = items[index+1]
+            //Check if the one above is newer/younger than current card
             if(top.position < me.position){
                 while(top.position < me.position && index < length-1){
-                    // console.log("Move up", items, "top", top, "me", me)
                     //Move up
                     let temp = items[index];
                     items[index] = items[index + 1];
@@ -39,21 +38,22 @@ export default  function GamePage(props) {
                         top = items[index+1]
                     }
                 }
+                //Update rights guesses array and card guess status
                 updateRights("wrong")
                 items[index].status = "wrong"
                 return
             } else {
+                //Update rights guesses array and card guess status
                 updateRights("correct")
                 items[index].status = "correct"
             }
         }
-        //Check below and move
+        //Check if there is a card below it
         if(index !== 0){
-            // console.log("Check below")
             let bottom = items[index-1]
+            //Check if the one below is older than current card
             if(bottom.position > me.position){
                 while(bottom.position > me.position && index > 0){
-                    // console.log("Move down", items, "bottom", bottom, "me", me)
                     //Move down
                     let temp = items[index];
                     items[index] = items[index - 1];
@@ -63,22 +63,24 @@ export default  function GamePage(props) {
                         bottom = items[index-1]
                     }
                 }
+                //Update rights guesses array and card guess status
                 updateRights("wrong")
                 items[index].status = "wrong"
                 return
             } else {
+                //Update rights guesses array and card guess status
                 updateRights("correct")
                 items[index].status = "correct"
             }
         }
-        // console.log(items)
-        return
+        return //Just return if correct
     }
+
     //Add a card to the list
     function updateList(me){
-        newMove(me)
-        if(props.totalList.length > 0){
-            const card = props.totalList.pop();
+        checkMove(me)                           //Check if the card is placed right
+        if(props.totalList.length > 0){         //Then add the next card to items if one is avalible
+            const card = props.totalList.pop(); //Otherwise end the game
             let listOut = [card, ...items]
             setItems(listOut)
         }else{
@@ -89,6 +91,7 @@ export default  function GamePage(props) {
     return (
         <div className='column'>
             <div className='header'>
+                    {/*The header, switch between guess display and score box when the game ends*/}
                     {finished? 
                         <div className='finished-box'>
                             <p>Great! You got {rights.filter((x) => x === "correct").length} of 8 correct.</p>
@@ -98,6 +101,7 @@ export default  function GamePage(props) {
                         <Banner number={(count > 7) ? count : count + 1} guess={rights}/>
                     }
             </div>
+            {/*List of all the cards, using framer-motions reorder for smooth moves*/}
             <Reorder.Group axis='y' values={items} onReorder={setItems}  className='list'>
                 {items.map((item) => (
                     <Card

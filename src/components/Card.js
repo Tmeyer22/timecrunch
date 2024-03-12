@@ -6,7 +6,7 @@ import './card.css'
 const Card = props => {
     //Create states for buttons and placed
     const [placed, setPlaced] = useState(props.first) //inverted because of dragListener
-    
+
     //On click for place button, lock card and fire check function
     function onClick(){
         setPlaced(false)
@@ -14,6 +14,7 @@ const Card = props => {
     }
     
     return(
+        //Reorder from framer-motion for smooth moves
         <Reorder.Item
         key={props.value.index}
         value={props.value}
@@ -21,9 +22,9 @@ const Card = props => {
         className='card'
         >
             <div className='item'>
-                {!placed && <div className={"year " + props.value.status}> {props.value.date} </div>}
+                {!placed && <div className={"year " + props.value.status}> {props.value.date} </div>}   {/*Year display, colored based on guess. Appears once the card is place*/}
                 <div> {props.value.text} </div>
-                {placed && <button className='button-card' onClick={onClick}>Tap to place</button>}
+                {placed && <button className='button-card' onClick={onClick}>Tap to place</button>}     {/*Button to place the card. Disappears once the card is place*/}
             </div>
         </Reorder.Item>
     )
