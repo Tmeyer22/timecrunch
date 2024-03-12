@@ -4,7 +4,7 @@ import './Slider.css'
 
 //Year range slider to set game events list
 export default function DateSlider(props){
-    const [value, setValue] = React.useState([1600, 1900]);
+    const [value, setValue] = React.useState(props.range);
     const minDistance = 25;
     const min = 1450;
     const max = 2024;

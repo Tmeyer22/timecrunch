@@ -6,21 +6,25 @@ import HomePage from "./pages/home";
 
 export default  function App() {
     const [started, Start] = useState(false)
-    const [yearRange, setRange] = useState([1776, 1945])
+    const [yearRange, setRange] = useState([1600, 1900])
     const [games] = useState([])
 
-    //console.log(gamesPlayed)
-    //Toggle between home and game page
+    // console.log(yearRange)
 
+    //Toggle between home and game page
     function handleClick(){
         Start(!started)
     }
-   
-    console.log(games)
     
-    function setGames(lastGame){
+    //Add the last game to the tracked array
+    function setGames(lastGame, range){
         lastGame.pop()
-        games.unshift(lastGame)
+        let holder = {
+            game: lastGame,
+            rights: lastGame.filter((x) => x === "correct").length,
+            dates: range,
+        };
+        games.unshift(holder)
         if (games.length > 5){
             games.pop()
         }
@@ -42,6 +46,7 @@ export default  function App() {
                 <HomePage
                 onClick={handleClick}
                 handleSlider={passSlider}
+                range={yearRange}
                 />
                 }
         </div>

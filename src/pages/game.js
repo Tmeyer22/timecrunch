@@ -8,12 +8,12 @@ export default function Game(props){
     let startList = [totalList[1], totalList[0]];
     totalList = totalList.slice(2)
 
+    // console.log("Game:", props)
+
     return(
         <div>
             <GamePage
-              restart={props.restart}
-              trackGame={props.setGames}
-              playedGames={props.playedGames}
+              {...props}
               totalList={totalList}
               startList={startList}
             />

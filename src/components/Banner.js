@@ -16,6 +16,7 @@ const Banner = props => {
                 <Circle status={props.guess[6]}/>
                 <Circle status={props.guess[7]}/>
             </div>
+            <div>{props.range[0]} - {props.range[1]}</div>
         </div>
     )
 }

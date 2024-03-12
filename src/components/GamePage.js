@@ -11,6 +11,8 @@ export default  function GamePage(props) {
     const [rights] = useState(["active", "", "", "", "", "", "", ""])   //Track guess, uses string for css stuff in Banner
     const [finished, setFinished] = useState(false)                     //Track done
 
+    // console.log("GamePage:", props)
+
     //Update the guess array with each new guess, bumps "active" along to show where the player is with the blue highlighted circle
     function updateRights(bol){
         rights[count] = bol
@@ -84,7 +86,7 @@ export default  function GamePage(props) {
             let listOut = [card, ...items]
             setItems(listOut)
         }else{
-            props.trackGame(rights)
+            props.setGames(rights, props.range)
             setFinished(true)
         }
     }
@@ -92,11 +94,10 @@ export default  function GamePage(props) {
     return (
         <div className='column'>
             <Header 
+                {...props}
                 finished={finished}
                 rights={rights}
                 count={count}
-                restart={props.restart}
-                playedGames={props.playedGames}
             />
             {/*List of all the cards, using framer-motions reorder for smooth moves*/}
             <Reorder.Group axis='y' values={items} onReorder={setItems}  className='list'>

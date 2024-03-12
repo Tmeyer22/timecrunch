@@ -1,0 +1,27 @@
+
+.back-button{
+    background: #5d72c9;
+    border-radius: 15px;
+    color: antiquewhite;
+    position: relative;
+    font-size: large;
+    height: 35px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.finished-box{
+    text-align: center; 
+    z-index: 2;
+    position: relative;
+    background: white;
+    padding: 30px 10px 0 10px;
+    min-height: 100px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid #e3e0d5;
+}
+
+.header {
+    padding-bottom: 30px;
+}

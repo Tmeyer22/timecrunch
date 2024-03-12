@@ -4636,7 +4636,7 @@ export const listData = [
     },
     {
         index: 6580,
-        text: 'March on Washington for Jobs and FReedom.',
+        text: 'March on Washington for Jobs and Freedom.',
         date: "1963",
         status: "start",
         year: 1963
@@ -5063,7 +5063,7 @@ export const listData = [
     },
     {
         index: 7190,
-        text: 'Emergance of New Right think tanksl Heritage FOundation, American Enterprise Institute and the Cato Institute.',
+        text: 'Emergance of New Right think tanks: Heritage Foundation, American Enterprise Institute and the Cato Institute.',
         date: "1981-1989",
         status: "start",
         year: 1981
