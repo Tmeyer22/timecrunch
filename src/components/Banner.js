@@ -1,15 +1,13 @@
 import './banner.css'
 import Circle from "./Circle"
 
+//Score banner at the top of the page
 const Banner = props => {
-
     return(
         <div className='banner'>
-            <div
-            //  className='score-text'
-            >{props.number} of 8</div>
-            <div className="circle-contanier">
-                <Circle status={props.guess[0]}/>
+            <div>{props.number} of 8</div>          {/*Position text display*/}
+            <div className="circle-contanier">      {/*Row of colored circles showing right or wrong guesses*/}
+                <Circle status={props.guess[0]}/>   {/*Guess display circle, color based on css class from string array*/}
                 <Circle status={props.guess[1]}/>
                 <Circle status={props.guess[2]}/>
                 <Circle status={props.guess[3]}/>

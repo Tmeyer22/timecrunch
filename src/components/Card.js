@@ -1,25 +1,23 @@
 import { useState } from 'react';
 import { Reorder } from 'framer-motion';
-import PropTypes  from 'prop-types'
 import './card.css'
 
+//Card Component, displays a single event and can be moved
 const Card = props => {
     //Create states for buttons and placed
-    const [placed, setPlaced] = useState(props.first)
-    const [nlocked, setNlocked] = useState(props.first)
-    //On click for place button.
+    const [placed, setPlaced] = useState(props.first) //inverted because of dragListener
+    
+    //On click for place button, lock card and fire check function
     function onClick(){
-        setNlocked(false)
         setPlaced(false)
         props.passUpdate(props.value)
     }
-
     
     return(
         <Reorder.Item
         key={props.value.index}
         value={props.value}
-        dragListener={nlocked}
+        dragListener={placed}
         className='card'
         >
             <div className='item'>
@@ -29,12 +27,6 @@ const Card = props => {
             </div>
         </Reorder.Item>
     )
-}
-
-Card.propTypes = {
-    value: PropTypes.object,
-    passUpdate: PropTypes.func,
-    doMove: PropTypes.func
 }
 
 export default Card

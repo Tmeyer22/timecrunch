@@ -9,7 +9,7 @@ export default function HomePage(props){
                 <h1>Welcome to Timecrunch!</h1>
                 <button className="button" onClick={props.onClick}> Start Game</button>
                 <Slider handleSlider={props.handleSlider}/>
-                <small className="smaller">Beta v0.9.2. Note: There will be many typos!</small>
+                <small className="smaller">Beta v0.9.4. Note: There will be many typos!</small>
             </div>
         </div>
     )

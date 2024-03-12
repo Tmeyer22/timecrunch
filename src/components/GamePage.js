@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Banner from './Banner';
 import './game.css'
 
+
 export default  function GamePage(props) {
     const [items, setItems] = useState(props.startList)
     const [count, setCount] = useState(0)
