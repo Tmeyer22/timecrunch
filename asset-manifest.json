@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/timecrunch/static/css/main.18ffbe06.css",
-    "main.js": "/timecrunch/static/js/main.6c55aeb4.js",
+    "main.css": "/timecrunch/static/css/main.47df4169.css",
+    "main.js": "/timecrunch/static/js/main.c7123c1a.js",
     "index.html": "/timecrunch/index.html",
-    "main.18ffbe06.css.map": "/timecrunch/static/css/main.18ffbe06.css.map",
-    "main.6c55aeb4.js.map": "/timecrunch/static/js/main.6c55aeb4.js.map"
+    "main.47df4169.css.map": "/timecrunch/static/css/main.47df4169.css.map",
+    "main.c7123c1a.js.map": "/timecrunch/static/js/main.c7123c1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.18ffbe06.css",
-    "static/js/main.6c55aeb4.js"
+    "static/css/main.47df4169.css",
+    "static/js/main.c7123c1a.js"
   ]
 }
