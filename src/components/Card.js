@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Reorder } from 'framer-motion';
-import './card.css'
+import './card.css';
 
 //Card Component, displays a single event and can be moved
 const Card = props => {

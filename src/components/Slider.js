@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from '@mui/material/Slider';
-import './Slider.css'
+import './Slider.css';
 
 //Year range slider to set game events list
 export default function DateSlider(props){

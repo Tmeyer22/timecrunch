@@ -25,3 +25,8 @@
 .header {
     padding-bottom: 30px;
 }
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

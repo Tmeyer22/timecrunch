@@ -1,5 +1,5 @@
-import './banner.css'
-import Circle from "./Circle"
+import Circle from "./Circle";
+import './banner.css';
 
 //Score banner at the top of the page
 const Banner = props => {

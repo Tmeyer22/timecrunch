@@ -1500,7 +1500,7 @@ export const listData = [
     },
     {
         index: 2120,
-        text: 'Lississippi becomes a state.',
+        text: 'Mississippi becomes a state.',
         date: "1817",
         status: "start",
         year: 1817
@@ -4076,7 +4076,7 @@ export const listData = [
     },
     {
         index: 5780,
-        text: '"Japan invades China.',
+        text: 'Japan invades China.',
         date: "1937",
         status: "start",
         year: 1937

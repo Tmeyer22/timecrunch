@@ -2,7 +2,7 @@ import Card from './Card';
 import Header from './HeaderBox';
 import {Reorder} from 'framer-motion'
 import { useState } from 'react';
-import './game.css'
+import './game.css';
 
 //The card list and game logic, kept here to use state
 export default  function GamePage(props) {
