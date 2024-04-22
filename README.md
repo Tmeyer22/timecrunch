@@ -1,0 +1,1 @@
+This is a little web toy based on the NYTimes Flashback game. I built it to test my web developer skills. This repository holds the code but the game itself is hosted through Github Pages and should be played there. If you are trying to run this locally, it is a React App and can be start using npm start from the command line.
